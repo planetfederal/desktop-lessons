@@ -1,0 +1,19 @@
+name: Transform X and Y CSV table into a point vector layer
+group: General tasks
+description: lesson.html
+steps:
+    - menu: Layer/Add Layer/Add Delimited Text Layer...
+
+    - name: Configure importing settings
+      description: delimited_test_settings.html
+
+    - name: Set layer as active layer
+      description: set_active_layer.html
+
+    - menu: Layer/Save As...     
+    
+    - name: Save the file as GeoPackage
+      description: save_as_geopackage.html
+nextLessons:
+    - name: Export raster layer (using Processing)
+      group: General tasks
