@@ -1,0 +1,14 @@
+name: Export raster layer
+group: General tasks
+description: lesson.html 
+steps: 
+    - name: Set 'DEM' layer as active layer
+      description: activelayer.html
+
+    - menu: Layer/Save As... 
+
+    - name: Save the file as ArcInfo ASCII
+      description: saveas.html
+nextLessons:
+    - name: Export raster layer (using Processing)
+      group: General tasks
