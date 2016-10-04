@@ -14,6 +14,6 @@ steps:
     
     - name: Save the file as GeoPackage
       description: save_as_geopackage.html
-nextLessons:
-    - name: Export raster layer (using Processing)
-      group: General tasks
+#nextLessons:
+#    - name: Export raster layer (using Processing)
+#      group: General tasks
