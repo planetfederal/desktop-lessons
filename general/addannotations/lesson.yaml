@@ -3,7 +3,7 @@ group: General tasks
 description: lesson.html
 steps:
     - name: Activate the Text Annotation Tool 
-      description: activate_text_annotaion.html
+      description: activate_text_annotation.html
 
     - name: Add annotation to map canvas
       description: add_annotation.html
@@ -11,11 +11,14 @@ steps:
     - name: Edit annotation content and style
       description: edit_annotation.html
 
-    - name: Move and resize annotation
-      description: move_resize_annotation.html
+    - name: Move annotation
+      description: move_annotation.html
       
-    - name: Delete annotation
-      description: delete_annotation.html
+    - name: Move annotation box
+      description: move_annotation_box.html
+
+    - name: Resize annotation
+      description: resize_annotation.html
 nextLessons:
     - name: Export raster layer (using Processing)
       group: General tasks
