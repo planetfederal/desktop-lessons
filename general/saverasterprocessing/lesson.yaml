@@ -1,0 +1,11 @@
+name: Export raster layer (using Processing)
+group: General tasks
+description: lesson.html 
+steps: 
+    - menu: Processing/Toolbox
+
+    - name: Open the GDAL Translate algorithm
+      description: Type 'Translate' in the Processing Toolbox to easily find the Translate (convert format) algorithm. Double click on its entry in the toolbox
+
+    - name: Run the GDAL Translate algorithm
+      description: Select the filename to export to in the 'Converted' output field. The extension of the filename determines its format. Use ".asc" to eport to an ArcInfo ASCII file.
