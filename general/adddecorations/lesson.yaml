@@ -1,0 +1,21 @@
+name: Add decorations to the map canvas
+group: General tasks
+description: lesson.html
+steps:
+    - name: Introduction
+      description: introduction.html
+
+    - menu: View/Decorations/Scale Bar
+
+    - name: Set Scale bar options
+      description: scale_bar_settings.html
+
+    - menu: View/Decorations/North Arrow
+
+    - name: Set North Arrow options
+      description: north_arrow_settings.html
+
+    - menu: View/Decorations/Grid
+
+    - name: Set Grid options
+      description: grid_settings.html
