@@ -1,0 +1,18 @@
+name: Save map canvas as a georeferenced image
+group: General tasks
+description: lesson.html
+steps:
+    - name: Set map canvas' size and scale
+      description: zoom_to_layer.html
+
+    - menu: Project/Save as Image...
+
+    - name: Choose name and location for file
+      description: save_file.html
+    
+    - menu: Layer/Hide All Layers 
+
+    - menu: Layer/Add Layer/Add Raster Layer...
+
+    - name: Load image
+      description: load_image.html
