@@ -2,14 +2,12 @@ name: Reproject vector layer using Processing
 group: General tasks
 description: lesson.html 
 steps: 
-    - menu: Processing/Toolbox
+    - name: Open Processing toolbox
+      description: opentoolbox.html
 
     - name: Open the 'Reproject layer' algorithm
-      description: Type 'Reproject' in the Processing Toolbox to easily find the 'Reproject layer' algorithm. Double click on its entry in the toolbox
+      description: openreprojecttool.html
 
-    - name: Run the GDAL Translate algorithm
-      description: Select the 'points' layer in the 'Input layer' field. 'Select EPSG:23029 as the destination CRS in the 'Target Crs' field.                       
-                    Select the filename to export to in the 'Reprojected' output field. The extension of the filename determines its format. Use ".shp" to export to a Shapefile.
-                    Click on 'Run'
-
+    - name: Setup and run the Reproject layer algorithm
+      description: runreproject.html
 
