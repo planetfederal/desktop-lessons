@@ -1106,14 +1106,14 @@ def my_form_open(dialog, layer, feature):
       <Label type="QString">&amp;copy; Boundless 2016</Label>
       <Color type="QString">#000000</Color>
     </CopyrightLabel>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <WMSContactPosition type="QString"></WMSContactPosition>
     <Variables>
       <variableNames type="QStringList"/>
       <variableValues type="QStringList"/>
     </Variables>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSContactPosition type="QString"></WMSContactPosition>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>

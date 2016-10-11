@@ -18,9 +18,9 @@
     <units>meters</units>
     <extent>
       <xmin>-8815939.94332552701234818</xmin>
-      <ymin>4269808.93310629017651081</ymin>
+      <ymin>4142987.23093865951523185</ymin>
       <xmax>-8395045.49111250787973404</xmax>
-      <ymax>4538168.70414136536419392</ymax>
+      <ymax>4664990.40630899649113417</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -297,7 +297,7 @@
         <ymax>846791.52609669358935207</ymax>
       </extent>
       <id>Wake_BlockGroup_201020161007053902438</id>
-      <datasource>\\VBOXSVR\alexandre\boundless\repos\desktop-lessons\general\_data\Wake_BlockGroup_2010.shp</datasource>
+      <datasource>./data/Wake_BlockGroup_2010.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -669,14 +669,14 @@
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../../../../../../../../../projects</annotationform>
+      <annotationform>../../../../../../../../general/projects</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../../../../../../../../../projects</editform>
+      <editform>../../../../../../../../general/projects</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../../../../../../../../../projects</editforminitfilepath>
+      <editforminitfilepath>../../../../../../../../general/projects</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -723,7 +723,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>846796.2141740710940212</ymax>
       </extent>
       <id>Wake_Boundary_2010_0120161007054721312</id>
-      <datasource>../_data/Wake_Boundary_2010_01.shp</datasource>
+      <datasource>./data/Wake_Boundary_2010_01.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -968,14 +968,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>../../../../../../../../../../../../..</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>../../../../../../../../../../../../..</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>../../../../../../../../../../../../..</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is

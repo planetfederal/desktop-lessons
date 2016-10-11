@@ -298,7 +298,7 @@
         <ymax>846791.52609669358935207</ymax>
       </extent>
       <id>Wake_BlockGroup_201020161007053902438</id>
-      <datasource>../_data/Wake_BlockGroup_2010.shp</datasource>
+      <datasource>./data/Wake_BlockGroup_2010.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -724,7 +724,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>846796.2141740710940212</ymax>
       </extent>
       <id>Wake_Boundary_2010_0120161007054721312</id>
-      <datasource>C:/Users/boundless/.qgis2/python/plugins/lessons/_lessons/general/_data/Wake_Boundary_2010_01.shp</datasource>
+      <datasource>./data/Wake_Boundary_2010_01.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -969,14 +969,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
