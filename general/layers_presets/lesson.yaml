@@ -1,0 +1,15 @@
+name: Create visibility presets
+group: General tasks
+description: lesson.html
+steps:
+    - name: Create a preset
+      description: createpreset1.html
+
+    - name: "Change layer's visibility"
+      description: changelayervisibility.html
+      
+    - name: Create another preset
+      description: createpreset2.html
+
+    - name: Use presets
+      description: usepresets.html
