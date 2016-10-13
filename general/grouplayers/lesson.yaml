@@ -1,0 +1,18 @@
+name: Group layers
+group: General tasks
+description: lesson.html
+steps:
+    - name: Make multiple layers active
+      description: selectlayers.html
+
+    - name: Group selected layers
+      description: groupselected.html
+      
+    - name: Rename group
+      description: renamegroup.html
+
+    - name: Add layer to group
+      description: addlayer.html
+
+    - name: Remove layer from group
+      description: removelayer.html
