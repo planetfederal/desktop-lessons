@@ -2,9 +2,9 @@ name: testes
 group: General tasks
 description: lesson.html
 steps:
-    - menu: - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
+    - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
     
-    - menu: - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
+    - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
       description: my_descripiton.html
 
     - menu: Raster/Conversion/Translate (Convert Format)...
