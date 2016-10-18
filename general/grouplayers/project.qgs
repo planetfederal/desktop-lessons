@@ -12,13 +12,13 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wake_PoliceStations_2010_0420161012180046813" name="Wake_Police_Stations">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wake_PublicShools_141520161012180046828" name="Wake_Public_Shools">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wake_PublicShools_141520161012180046828" name="Wake_Public_Schools">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wake_Boundary_2010_0120161007054721312" name="Wake_Boundary">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wake_Boundary_2010_0120161018161535683" name="Wake_Boundary">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Services_heatmap20161013055801520" name="Services heatmap">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Services_heatmap20161018161623419" name="Services heatmap">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Stamen_Toner_Lite_OSM20161007052915447" name="Stamen Toner Lite/OSM">
@@ -59,6 +59,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_Fire_Stations20160422112938145"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OCM_Landscape20161007053029313"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_Property20160419165730677"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100001" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_Boundary_2010_0120161018161535683"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_ZIP_Codes20160419165731238"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PublicShools_141520160422112938254"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2264" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PoliceStations_2010_0420161012174606887"/>
@@ -107,6 +108,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_OrthoKey_201020160419165730568"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raleigh_Historic_Overlay20160419165729616"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PoliceStations_2010_0420160419165730646"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2264" srcDatumTransform="-1" destDatumTransform="-1" layerid="Services_heatmap20161018161623419"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raleigh_Buildings_201320160419165729023"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_MajorRoads_2014_1120160419165730444"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PublicShools_141520160419165730833"/>
@@ -123,12 +125,12 @@
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>Stamen_Toner_Lite_OSM20161007052915447</item>
-      <item>Wake_Boundary_2010_0120161007054721312</item>
       <item>Wake_EMS_Stations20161012180046766</item>
       <item>Wake_Fire_Stations20161012180046797</item>
       <item>Wake_PoliceStations_2010_0420161012180046813</item>
       <item>Wake_PublicShools_141520161012180046828</item>
-      <item>Services_heatmap20161013055801520</item>
+      <item>Wake_Boundary_2010_0120161018161535683</item>
+      <item>Services_heatmap20161018161623419</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -147,19 +149,19 @@
         <legendlayerfile isInOverview="0" layerid="Wake_PoliceStations_2010_0420161012180046813" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Wake_Public_Shools" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Wake_Public_Schools" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Wake_PublicShools_141520161012180046828" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Wake_Boundary" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Wake_Boundary_2010_0120161007054721312" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Wake_Boundary_2010_0120161018161535683" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Services heatmap" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Services_heatmap20161013055801520" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Services_heatmap20161018161623419" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Stamen Toner Lite/OSM" showFeatureCount="0">
@@ -271,15 +273,15 @@
     </Composition>
   </Composer>
   <projectlayers>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>2020292.54797203349880874</xmin>
         <ymin>658568.48371650464832783</ymin>
         <xmax>2204107.72657241206616163</xmax>
         <ymax>831612.74557774513959885</ymax>
       </extent>
-      <id>Services_heatmap20161013055801520</id>
-      <datasource>?query=select%20geometry%20from%20Wake_EMS_Stations%0D%0Aunion%20all%0D%0Aselect%20geometry%20from%20Wake_Police_Stations%0D%0Aunion%20all%0D%0Aselect%20geometry%20from%20Wake_Fire_Stations%0D%0Aunion%20all%0D%0Aselect%20geometry%20from%20Wake_Public_Shools%0D%0A</datasource>
+      <id>Services_heatmap20161018161623419</id>
+      <datasource>?query=select%20geometry%20from%20Wake_EMS_Stations%0D%0Aunion%20all%0D%0Aselect%20geometry%20from%20Wake_Police_Stations%0D%0Aunion%20all%0D%0Aselect%20geometry%20from%20Wake_Fire_Stations%0D%0Aunion%20all%0D%0Aselect%20geometry%20from%20Wake_Public_Schools%0D%0A</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -456,8 +458,6 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>6</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -491,14 +491,14 @@
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -599,19 +599,19 @@ def my_form_open(dialog, layer, feature):
         <xmax>2221230.60735210683196783</xmax>
         <ymax>846796.2141740710940212</ymax>
       </extent>
-      <id>Wake_Boundary_2010_0120161007054721312</id>
-      <datasource>../createbookmarks/data/Wake_Boundary_2010_01.shp</datasource>
+      <id>Wake_Boundary_2010_0120161018161535683</id>
+      <datasource>./data/Wake_Boundary_2010_01.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
       <layername>Wake_Boundary</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=lcc +lat_1=36.16666666666666 +lat_2=34.33333333333334 +lat_0=33.75 +lon_0=-79 +x_0=609601.2192024384 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
-          <srsid>246</srsid>
-          <srid>2264</srid>
-          <authid>EPSG:2264</authid>
-          <description>NAD83 / North Carolina (ftUS)</description>
+          <proj4>+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2199999997 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100001</srsid>
+          <srid>0</srid>
+          <authid>USER:100001</authid>
+          <description> * Generated CRS (+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2199999997 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
           <projectionacronym>lcc</projectionacronym>
           <ellipsoidacronym>GRS80</ellipsoidacronym>
           <geographicflag>false</geographicflag>
@@ -810,8 +810,6 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -1237,14 +1235,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../../../../../../../../../../../..</annotationform>
+      <annotationform>../../../..</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../../../../../../../../../../../..</editform>
+      <editform>../../../..</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../../../../../../../../../../../..</editforminitfilepath>
+      <editforminitfilepath>../../../..</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1629,14 +1627,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../../../../../../../../../../../..</annotationform>
+      <annotationform>../../../..</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../../../../../../../../../../../..</editform>
+      <editform>../../../..</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../../../../../../../../../../../..</editforminitfilepath>
+      <editforminitfilepath>../../../..</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2002,14 +2000,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../../../../../../../../../../../..</annotationform>
+      <annotationform>../../../..</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../../../../../../../../../../../..</editform>
+      <editform>../../../..</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../../../../../../../../../../../..</editforminitfilepath>
+      <editforminitfilepath>../../../..</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2047,7 +2045,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Wake_Public_Shools</layername>
+      <layername>Wake_Public_Schools</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=36.16666666666666 +lat_2=34.33333333333334 +lat_0=33.75 +lon_0=-79 +x_0=609601.2192024384 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
@@ -2414,14 +2412,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../../../../../../../../../../../..</annotationform>
+      <annotationform>../../../..</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../../../../../../../../../../../..</editform>
+      <editform>../../../..</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../../../../../../../../../../../..</editforminitfilepath>
+      <editforminitfilepath>../../../..</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2508,12 +2506,12 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>Wake_Boundary_2010_0120161007054721312</value>
         <value>Wake_EMS_Stations20161012180046766</value>
         <value>Wake_Fire_Stations20161012180046797</value>
         <value>Wake_PoliceStations_2010_0420161012180046813</value>
         <value>Wake_PublicShools_141520161012180046828</value>
-        <value>Services_heatmap20161013055801520</value>
+        <value>Wake_Boundary_2010_0120161018161535683</value>
+        <value>Services_heatmap20161018161623419</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
