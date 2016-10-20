@@ -16,3 +16,7 @@ steps:
 
     - name: Remove layer from group
       description: removelayer.html
+    
+nextLessons:
+    - name: Create visibility presets
+      group: General tasks
