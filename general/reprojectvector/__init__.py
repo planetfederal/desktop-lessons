@@ -19,6 +19,8 @@ def setActiveLayer():
 lesson = Lesson("Reproject vector layer", "General tasks", "lesson.html")
 lesson.addStep("Set 'points' layer as active layer", "activelayer.html",
                function = setActiveLayer, endcheck=isLayerActive, steptype=Step.MANUALSTEP)
+lesson.addMenuClickStep("Layer/Properties...", "openproperties.html")
+lesson.addStep("Confirm layer CRS", "confirmcrs.html", steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep("Layer/Save As...")
 lesson.addStep("Save a reprojected copy of the layer", "saveas.html", steptype=Step.MANUALSTEP)
 lesson.addNextLesson("General tasks", "Reproject vector layer using Processing")
