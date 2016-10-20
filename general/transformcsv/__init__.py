@@ -7,7 +7,7 @@ lesson = Lesson ("Transform X and Y CSV table into a point vector layer",
                  "General tasks", "lesson.html")
 
 def copyTable():
-	filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "_data", "songs.csv")
+	filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "transformcsv/data", "songs.csv")
 	copyLessonData(filepath, os.path.basename(os.path.dirname(__file__)))
 
 lesson.addStep("Copy data", "Copy data", copyTable)

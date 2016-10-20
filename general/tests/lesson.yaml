@@ -2,6 +2,9 @@ name: testes
 group: General tasks
 description: lesson.html
 steps:
+    - name: CSS testing
+      description: my_css_tests.html
+
     - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
     
     - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
