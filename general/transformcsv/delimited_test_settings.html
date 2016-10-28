@@ -1,16 +1,28 @@
+<style>
+b, strong, i {
+    color: #22728d;
+}
+code {
+    color: #d72727;
+}
+ol {
+    margin-left: -10px;
+}
+</style>
+<body>
 <p>
     In the <strong>Create a Layer from a Delimited Text File</strong> dialog, do:
 </p>
 <ol>
     <li>Click <strong>Browse</strong>.</li>
-    <li>From your user's home folder, and go to the <i>qgislessonsdata\tranformcsv<\i> folder, select the <i>songs.csv</i> file, and click <strong>Open</strong>.</li>
+    <li>From your user's home folder, and go to the <i>qgislessonsdata\tranformcsv</i> folder, select the <i>songs.csv</i> file, and click <strong>Open</strong>.</li>
     <li>
         Back at the dialog, set the options as follows:
         <ul>
-            <li><strong>Layer name</strong> = <i>songs_in_madrid</i></li>
-            <li><strong>File format</strong> = Custom delimiters (Semicolon)</li>
-            <li><strong>First record has field names</strong> = yes
-            <li><strong>Geometry definition</strong> = Point coordinates</li>
+            <li><strong>Layer name</strong> = <code>songs_in_madrid</code></li>
+            <li><strong>File format</strong> = <i>Custom delimiters (Semicolon)</i></li>
+            <li><strong>First record has field names</strong> = <i>yes</i>
+            <li><strong>Geometry definition</strong> = <i>Point coordinates</i></li>
             <li><strong>X field</strong> = <i>X</i></li>
             <li><strong>Y field</strong> = <i>Y</i></li>
         </ul>
@@ -23,3 +35,4 @@ A dialog will ask you the layer's CRS, choose <i>WGS84 EPSG:4326</i>.
 <p>
 <img src="delimited_test_settings.png">
 </p>
+</body>
