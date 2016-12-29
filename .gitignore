@@ -90,3 +90,6 @@ ENV/
 
 #QGIS Project backup
 *.qgs~
+
+#Pycham folder
+.idea/
