@@ -58,4 +58,4 @@ lesson.addStep("Confirm results", "12_to_thousands_results.html", steptype=Step.
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Categorized Symbols")
+lesson.addNextLesson("Layer styling", "Manage Multiple Styles")
