@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<style>
+  b, strong, i {
+      color: #22728d;
+  }
+  code {
+      color: #d72727;
+  }
+  ol {
+      margin-left: -10px;
+  }
+  img { display:block; }
+</style>
+<body>
+  <p>As you can see, the raster is now styled using a more diverse range of color, going from red (low values) to green (high values), passing by yellow.</p>
+  <p><img src="set_singleband_pseudocolor_results.png"></p>
+  <p>You may notice two other things:</p>
+  <ol>
+    <li>The values in the legend are not very user-friendly.</li>
+    <li>We used a linear color interpolation, which means that values between the legend's values draw in the map canvas with intermediate color tones.
+    <img src="set_singleband_pseudocolor_results_2.png"></li>
+  </ol>
+  <p>In the next steps, we will change them.</p>
+</body>
+</html>
