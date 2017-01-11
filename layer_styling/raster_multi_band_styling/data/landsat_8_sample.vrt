@@ -1,0 +1,123 @@
+<VRTDataset rasterXSize="501" rasterYSize="342">
+  <SRS>PROJCS["WGS 84 / UTM zone 30N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-3],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","32630"]]</SRS>
+  <GeoTransform>  2.6275500000000000e+05,  3.0000000000000000e+01,  0.0000000000000000e+00,  4.4640750000000000e+06,  0.0000000000000000e+00, -3.0000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.31363323330879</MDI>
+      <MDI key="STATISTICS_MEAN">0.1091497127342</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.088515609502792</MDI>
+      <MDI key="STATISTICS_STDDEV">0.0098379959428105</MDI>
+    </Metadata>
+    <NoDataValue>-9.99000000000000E+02</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">clip_b1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="501" RasterYSize="342" DataType="Float32" BlockXSize="501" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <DstRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <NODATA>-999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.32564368844032</MDI>
+      <MDI key="STATISTICS_MEAN">0.095631163942177</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.068111248314381</MDI>
+      <MDI key="STATISTICS_STDDEV">0.014265748284725</MDI>
+    </Metadata>
+    <NoDataValue>-9.99000000000000E+02</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">clip_b2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="501" RasterYSize="342" DataType="Float32" BlockXSize="501" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <DstRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <NODATA>-999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.33593517541885</MDI>
+      <MDI key="STATISTICS_MEAN">0.091568081794607</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.041746329516172</MDI>
+      <MDI key="STATISTICS_STDDEV">0.019178039752969</MDI>
+    </Metadata>
+    <NoDataValue>-9.99000000000000E+02</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">clip_b3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="501" RasterYSize="342" DataType="Float32" BlockXSize="501" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <DstRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <NODATA>-999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="4">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.35859426856041</MDI>
+      <MDI key="STATISTICS_MEAN">0.081828886701733</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.027503456920385</MDI>
+      <MDI key="STATISTICS_STDDEV">0.028745072967751</MDI>
+    </Metadata>
+    <NoDataValue>-9.99000000000000E+02</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">clip_b4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="501" RasterYSize="342" DataType="Float32" BlockXSize="501" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <DstRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <NODATA>-999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="5">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.67521893978119</MDI>
+      <MDI key="STATISTICS_MEAN">0.29944939274415</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.025717521086335</MDI>
+      <MDI key="STATISTICS_STDDEV">0.074645388662317</MDI>
+    </Metadata>
+    <NoDataValue>-9.99000000000000E+02</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">clip_b5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="501" RasterYSize="342" DataType="Float32" BlockXSize="501" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <DstRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <NODATA>-999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="6">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.53508973121643</MDI>
+      <MDI key="STATISTICS_MEAN">0.20792473291694</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.029668914154172</MDI>
+      <MDI key="STATISTICS_STDDEV">0.055818005421405</MDI>
+    </Metadata>
+    <NoDataValue>-9.99000000000000E+02</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">clip_b6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="501" RasterYSize="342" DataType="Float32" BlockXSize="501" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <DstRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <NODATA>-999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Float32" band="7">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.44525697827339</MDI>
+      <MDI key="STATISTICS_MEAN">0.11810912448407</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.016586907207966</MDI>
+      <MDI key="STATISTICS_STDDEV">0.047239412785892</MDI>
+    </Metadata>
+    <NoDataValue>-9.99000000000000E+02</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">clip_b7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="501" RasterYSize="342" DataType="Float32" BlockXSize="501" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <DstRect xOff="0" yOff="0" xSize="501" ySize="342" />
+      <NODATA>-999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
