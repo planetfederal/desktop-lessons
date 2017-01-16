@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Raleigh_Buildings_2013_extract20170106104607700" name="Buildings">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Raleigh_Buildings_2013_extract20170116175252609" name="Buildings">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -33,18 +33,19 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="USER:100004" srcAuthId="USER:100004" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raleigh_Buildings_201320170106103103832"/>
+      <layer_coordinate_transform destAuthId="USER:100004" srcAuthId="EPSG:32119" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raleigh_Buildings_2013_extract20170116175252609"/>
       <layer_coordinate_transform destAuthId="USER:100004" srcAuthId="EPSG:32119" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raleigh_Buildings_2013_extract20170106104607700"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>Raleigh_Buildings_2013_extract20170106104607700</item>
+      <item>Raleigh_Buildings_2013_extract20170116175252609</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Buildings" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Raleigh_Buildings_2013_extract20170106104607700" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Raleigh_Buildings_2013_extract20170116175252609" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -56,8 +57,8 @@
         <xmax>647491.90772922802716494</xmax>
         <ymax>231515.29955939334467985</ymax>
       </extent>
-      <id>Raleigh_Buildings_2013_extract20170106104607700</id>
-      <datasource>C:/Users/BOUNDL~1/AppData/Local/Temp/lessons/lesson1483959083.06/data/Raleigh_Buildings_2013_extract.shp</datasource>
+      <id>Raleigh_Buildings_2013_extract20170116175252609</id>
+      <datasource>./data/Raleigh_Buildings_2013_extract.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -264,8 +265,6 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -359,7 +358,7 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>Raleigh_Buildings_2013_extract20170106104607700</value>
+        <value>Raleigh_Buildings_2013_extract20170116175252609</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>

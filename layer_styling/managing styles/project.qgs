@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wake_BlockGroup_201020161229144958260" name="Wake BlockGroup 2010">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Wake_BlockGroup_201020170116174556627" name="Wake BlockGroup 2010">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -33,18 +33,19 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:2264" srcAuthId="EPSG:2264" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_BlockGroup_201020161229143628901"/>
+      <layer_coordinate_transform destAuthId="EPSG:2264" srcAuthId="EPSG:2264" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_BlockGroup_201020170116174556627"/>
       <layer_coordinate_transform destAuthId="EPSG:2264" srcAuthId="EPSG:2264" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_BlockGroup_201020161229144958260"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>Wake_BlockGroup_201020161229144958260</item>
+      <item>Wake_BlockGroup_201020170116174556627</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Wake BlockGroup 2010" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Wake_BlockGroup_201020161229144958260" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Wake_BlockGroup_201020170116174556627" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -56,8 +57,8 @@
         <xmax>2220895.26564551889896393</xmax>
         <ymax>846791.52609668672084808</ymax>
       </extent>
-      <id>Wake_BlockGroup_201020161229144958260</id>
-      <datasource>//VBOXSVR/alexandre/boundless/repos/desktop-lessons/layer_styling/graduated_symbol/data/Wake_BlockGroup_2010.shp</datasource>
+      <id>Wake_BlockGroup_201020170116174556627</id>
+      <datasource>./data/Wake_BlockGroup_2010.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -75,7 +76,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
-      <previewExpression>COALESCE( "NAMELSAD10", '&lt;NULL>' )</previewExpression>
+      <previewExpression></previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
@@ -382,8 +383,6 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -504,7 +503,7 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>Wake_BlockGroup_201020161229144958260</value>
+        <value>Wake_BlockGroup_201020170116174556627</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>

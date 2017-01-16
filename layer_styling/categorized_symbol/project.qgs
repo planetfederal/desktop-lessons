@@ -73,7 +73,7 @@
         <ymax>744885.99499986390583217</ymax>
       </extent>
       <id>raleigh_downtown20161228143332835</id>
-      <datasource>//VBOXSVR/alexandre/boundless/repos/desktop-lessons/layer_styling/categorized_symbol/data/raleigh_downtown.shp</datasource>
+      <datasource>./data/raleigh_downtown.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -360,7 +360,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>744983.53917113528586924</ymax>
       </extent>
       <id>raleigh_downtown_streets20161228143254740</id>
-      <datasource>//VBOXSVR/alexandre/boundless/repos/desktop-lessons/layer_styling/categorized_symbol/data/raleigh_downtown_streets.shp</datasource>
+      <datasource>./data/raleigh_downtown_streets.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -710,17 +710,18 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is

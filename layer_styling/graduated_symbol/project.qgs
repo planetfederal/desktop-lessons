@@ -57,7 +57,7 @@
         <ymax>846791.52609668672084808</ymax>
       </extent>
       <id>Wake_BlockGroup_201020161229144958260</id>
-      <datasource>//VBOXSVR/alexandre/boundless/repos/desktop-lessons/layer_styling/graduated_symbol/data/Wake_BlockGroup_2010.shp</datasource>
+      <datasource>./data/Wake_BlockGroup_2010.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
