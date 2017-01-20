@@ -37,4 +37,4 @@ lesson.addStep('Conclusion', '06_conclusion.html', steptype=Step.MANUALSTEP)
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Manage Multiple Styles")
+lesson.addNextLesson("Layer styling", "Manage multiple styles in a layer")

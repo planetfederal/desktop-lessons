@@ -19,3 +19,6 @@ steps:
 
     - name: Set Grid options
       description: grid_settings.html
+nextLessons:
+    - name: Add annotations to the map canvas
+      group: General tasks

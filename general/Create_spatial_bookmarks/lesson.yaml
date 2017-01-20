@@ -27,3 +27,6 @@ steps:
 
     - name: Use bookmarks
       description: use_bookmarks.html
+nextLessons:
+    - name: Create visibility presets
+      group: General tasks

@@ -10,7 +10,7 @@ from lessons import addLessonModule
 
 # Lesson description
 
-lesson = Lesson("Manage Multiple Styles", "Layer styling", "00_lesson.html")
+lesson = Lesson("Manage multiple styles in a layer", "Layer styling", "00_lesson.html")
 
 # Steps
 
@@ -28,4 +28,4 @@ lesson.addStep("Go back to previous style", "06_revert_to_population_density.htm
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Categorized Symbols")
+lesson.addNextLesson("Layer styling", "Vector categorized symbols")

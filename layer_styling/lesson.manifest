@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <lesson>
-   <description>Lessons related to QGIS symbology</description>
+   <description>Lessons about some of the most common tasks when styling layers in QGIS.</description>
+   <lesson_list>[lessons]</lessons_list>
    <url>http://lessons.connect.boundlessgeo.com/layer_styling.zip</url>
 </lesson>

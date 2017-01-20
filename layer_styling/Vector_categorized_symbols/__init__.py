@@ -18,7 +18,7 @@ def setActiveLayer():
 
 # Lesson description
 
-lesson = Lesson("Categorized Symbols", "Layer styling", "00_lesson.html")
+lesson = Lesson("Vector categorized symbols", "Layer styling", "00_lesson.html")
 
 # Steps
 
@@ -52,4 +52,4 @@ lesson.addStep("Confirm results", "10_reduce_classes_results.html", steptype=Ste
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Graduated Symbols")
+lesson.addNextLesson("Layer styling", "Vector graduated symbols")

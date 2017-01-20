@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <lesson>
-   <description>Lessons about general QGIS topics</description>
+   <description>Lessons about general/common tasks in QGIS</description>
+   <lesson_list>[lessons]</lessons_list>
    <url>http://lessons.connect.boundlessgeo.com/general.zip</url>
 </lesson>

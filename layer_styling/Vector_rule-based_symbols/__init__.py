@@ -18,7 +18,7 @@ def setActiveLayer():
 
 # Lesson description
 
-lesson = Lesson("Rule-based Symbols", "Layer styling", "00_lesson.html")
+lesson = Lesson("Vector rule-based symbols", "Layer styling", "00_lesson.html")
 
 # Steps
 
@@ -53,4 +53,4 @@ lesson.addStep("Confirm the results", "11_set_update_rule_results.html", steptyp
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Manage Multiple Styles")
+lesson.addNextLesson("Layer styling", "Manage multiple styles in a layer")
