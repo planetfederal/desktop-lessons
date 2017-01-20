@@ -39,4 +39,4 @@ lesson.addStep("Confirm results", "06_set_543_infrared_color_results.html", step
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Raster multiband styling")
+lesson.addNextLesson("Layer styling", "Raster singleband styling")
