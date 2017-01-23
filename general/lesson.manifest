@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <lesson>
    <description>Lessons about general/common tasks in QGIS</description>
-   <lesson_list>[lessons]</lessons_list>
+   <lessons_list>Add annotations to the map canvas,Add decorations to the map canvas,Create spatial bookmarks,Create visibility presets,Define vector layer CRS,Export raster layer,Export raster layer using Processing,Export vector layer,Group layers,reprojectvector,Reproject vector layer,Reproject vector layer using Processing,Save map canvas as a georeferenced image,transformcsv,Transform X and Y CSV table into a point vector layer,Using preview modes in map canvas</lessons_list>
    <url>http://lessons.connect.boundlessgeo.com/general.zip</url>
 </lesson>

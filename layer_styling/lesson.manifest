@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <lesson>
    <description>Lessons about some of the most common tasks when styling layers in QGIS.</description>
-   <lesson_list>[lessons]</lessons_list>
+   <lessons_list>Manage multiple styles in a layer,Raster multiband styling,Raster singleband styling,Setting layer default style,Vector categorized symbols,Vector graduated symbols,Vector rule-based symbols</lessons_list>
    <url>http://lessons.connect.boundlessgeo.com/layer_styling.zip</url>
 </lesson>
