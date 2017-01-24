@@ -10,7 +10,7 @@ lesson = Lesson ("Setting layer's default style", "Layer styling", "00_lesson.ht
 
 # Copy dataset to the user's folder
 def copyTable():
-    filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "save_default_style/data", "Wake_BlockGroup_2010.zip")
+    filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Setting_layer_default_style/data", "Wake_BlockGroup_2010.zip")
     copyLessonData(filepath, os.path.basename(os.path.dirname(__file__)))
 
 lesson.addStep("Copy data", "Copy data", copyTable)
