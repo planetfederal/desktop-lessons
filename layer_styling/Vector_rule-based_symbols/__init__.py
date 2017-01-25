@@ -53,4 +53,4 @@ lesson.addStep("Confirm the results", "11_set_update_rule_results.html", steptyp
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Manage multiple styles in a layer")
+lesson.addNextLesson("Layer styling", "Create Proportional Symbols")
