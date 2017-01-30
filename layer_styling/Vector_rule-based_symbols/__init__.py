@@ -4,28 +4,21 @@
 # This code is licensed under the GPL 2.0 license.
 #
 from lessons.lesson import Lesson, Step
-from lessons.utils import *
+from lessons.utils import setActiveLayer, layerActive
 from qgis.utils import iface
 from lessons import addLessonModule
 
-def isLayerActive():
-    layer = iface.activeLayer()
-    return layer is not None and layer.name() == "Buildings"
-
-def setActiveLayer():
-    layer = layerFromName("Buildings")
-    iface.setActiveLayer(layer)
 
 # Lesson description
-
 lesson = Lesson("Vector rule-based symbols", "Layer styling", "00_lesson.html")
 
 # Steps
-
 lesson.addStep("Introduction", "01_intro.html", steptype=Step.MANUALSTEP)
 
 lesson.addStep("Set 'Buildings' layer as active layer", "02_active_layer.html",
-               function = setActiveLayer, endcheck = isLayerActive, steptype = Step.MANUALSTEP)
+               function=lambda: setActiveLayer("Buildings"),
+               endcheck=lambda: layerActive("Buildings"),
+               steptype=Step.MANUALSTEP)
 
 lesson.addMenuClickStep("Layer/Properties...", "03_open_properties.html")
 
@@ -52,5 +45,4 @@ lesson.addStep("Set update rule", "10_set_update_rule.html", steptype=Step.MANUA
 lesson.addStep("Confirm the results", "11_set_update_rule_results.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-
 lesson.addNextLesson("Layer styling", "Create Proportional Symbols")

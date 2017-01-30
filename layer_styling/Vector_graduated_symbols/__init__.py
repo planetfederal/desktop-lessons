@@ -4,26 +4,19 @@
 # This code is licensed under the GPL 2.0 license.
 #
 from lessons.lesson import Lesson, Step
-from lessons.utils import *
+from lessons.utils import setActiveLayer, layerActive
 from qgis.utils import iface
 from lessons import addLessonModule
 
-def isLayerActive():
-    layer = iface.activeLayer()
-    return layer is not None and layer.name() == "Wake BlockGroup 2010"
-
-def setActiveLayer():
-    layer = layerFromName("Wake BlockGroup 2010")
-    iface.setActiveLayer(layer)
 
 # Lesson description
-
 lesson = Lesson("Vector graduated symbols", "Layer styling", "00_lesson.html")
 
 # Steps
-
 lesson.addStep("Set 'Wake BlockGroup 2010' layer as active layer", "01_activelayer.html",
-               function = setActiveLayer, endcheck = isLayerActive, steptype = Step.MANUALSTEP)
+               function=lambda: setActiveLayer("Wake BlockGroup 2010"),
+               endcheck=lambda: layerActive("Wake BlockGroup 2010"),
+               steptype=Step.MANUALSTEP)
 
 lesson.addMenuClickStep("Layer/Properties...", "02_open_properties.html")
 
@@ -55,7 +48,5 @@ lesson.addStep("Convert population to thousands", "11_to_thousands.html", stepty
 
 lesson.addStep("Confirm results", "12_to_thousands_results.html", steptype=Step.MANUALSTEP)
 
-
 # Suggested lessons
-
 lesson.addNextLesson("Layer styling", "Vector rule-based symbols")
