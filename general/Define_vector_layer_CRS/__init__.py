@@ -8,14 +8,6 @@ from lessons.utils import setActiveLayer, layerActive
 from qgis.utils import iface
 from lessons import addLessonModule
 
-def isLayerActive():
-    layer = iface.activeLayer()
-    return layer is not None and layer.name() == "Wake_BlockGroup_2010"
-
-def setActiveLayer():
-    layer = layerFromName("Wake_BlockGroup_2010")
-    iface.setActiveLayer(layer)
-
 lesson = Lesson("Define vector layer CRS", "General tasks", "lesson.html")
 
 lesson.addStep("Set 'Wake_BlockGroup_2010' layer as active layer", "activelayer.html",

@@ -8,13 +8,6 @@ from lessons.utils import setActiveLayer, layerActive
 from qgis.utils import iface
 from lessons import addLessonModule
 
-def isLayerActive():
-    layer = iface.activeLayer()
-    return layer is not None and layer.name() == "dem25"
-
-def setActiveLayer():
-    layer = layerFromName("dem25")
-    iface.setActiveLayer(layer)
 
 # Lesson description
 lesson = Lesson("Raster singleband styling", "Layer styling", "00_lesson.html")

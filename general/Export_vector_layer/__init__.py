@@ -8,13 +8,6 @@ from lessons.utils import setActiveLayer, layerActive
 from qgis.utils import iface
 from lessons import addLessonModule
 
-def isLayerActive():
-    layer = iface.activeLayer()
-    return layer is not None and layer.name() == "points"
-
-def setActiveLayer():
-    layer = layerFromName("points")
-    iface.setActiveLayer(layer)
 
 lesson = Lesson("Export vector layer", "General tasks", "lesson.html")
 lesson.addStep("Set 'points' layer as active layer", "activelayer.html",
