@@ -1,3 +1,4 @@
+import os
 from lessons.lesson import Lesson, Step
 from lessons.utils import *
 from qgis.utils import iface
