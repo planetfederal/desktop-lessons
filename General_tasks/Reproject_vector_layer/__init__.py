@@ -4,21 +4,16 @@
 # This code is licensed under the GPL 2.0 license.
 #
 from lessons.lesson import Lesson, Step
-from lessons.utils import *
+from lessons.utils import setActiveLayer, layerActive
 from qgis.utils import iface
 from lessons import addLessonModule
 
-def isLayerActive():
-    layer = iface.activeLayer()
-    return layer is not None and layer.name() == "points"
-
-def setActiveLayer():
-    layer = layerFromName("points")
-    iface.setActiveLayer(layer)
 
 lesson = Lesson("Reproject vector layer", "General tasks", "lesson.html")
 lesson.addStep("Set 'points' layer as active layer", "activelayer.html",
-               function = setActiveLayer, endcheck=isLayerActive, steptype=Step.MANUALSTEP)
+               function=lambda: setActiveLayer("points"),
+               endcheck=lambda: layerActive("points"),
+               steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep("Layer/Properties...", "openproperties.html")
 lesson.addStep("Confirm layer CRS", "confirmcrs.html", steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep("Layer/Save As...")

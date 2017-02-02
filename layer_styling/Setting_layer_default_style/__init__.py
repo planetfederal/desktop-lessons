@@ -1,22 +1,19 @@
 from lessons.lesson import Lesson, Step
-from lessons.utils import *
 from qgis.utils import iface
 from lessons import addLessonModule
-
-# Lesson's description
-
-lesson = Lesson ("Setting layer's default style", "Layer styling", "00_lesson.html")
 
 
 # Copy dataset to the user's folder
 def copyTable():
-    filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "save_default_style/data", "Wake_BlockGroup_2010.zip")
+    filepath = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Setting_layer_default_style/data", "Wake_BlockGroup_2010.zip")
     copyLessonData(filepath, os.path.basename(os.path.dirname(__file__)))
 
-lesson.addStep("Copy data", "Copy data", copyTable)
 
+# Lesson's description
+lesson = Lesson ("Setting layer's default style", "Layer styling", "00_lesson.html")
 
 # Steps
+lesson.addStep("Copy data", "Copy data", copyTable)
 
 lesson.addStep('Introduction', '01_intro.html', steptype=Step.MANUALSTEP)
 
@@ -34,7 +31,5 @@ lesson.addStep('Load example dataset', '02_select_dataset_file.html', steptype=S
 
 lesson.addStep('Conclusion', '06_conclusion.html', steptype=Step.MANUALSTEP)
 
-
 # Suggested lessons
-
 lesson.addNextLesson("Layer styling", "Manage multiple styles in a layer")
