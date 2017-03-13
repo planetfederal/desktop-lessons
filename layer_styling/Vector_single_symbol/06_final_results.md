@@ -2,4 +2,4 @@ Now, in the Map Canvas, you can see the layers's features styled with both symbo
 
 ![pattern_line_fill.png](pattern_line_fill.png)
 
-This completes the lesson, click **Next step** to finish it.
+This step ends the lesson, click **Finish**.

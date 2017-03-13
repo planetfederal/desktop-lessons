@@ -2,4 +2,4 @@ What the expression we have used before does is check if each feature in *Wake_M
 
 ![final_result.png](final_result.png)
 
-This step completes the lesson, click **Next step** to finish it.
+This step ends the lesson, click **Finish**.

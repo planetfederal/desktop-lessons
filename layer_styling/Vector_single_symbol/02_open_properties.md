@@ -1,3 +1,3 @@
-With the *Raleigh_Downtown* layer active,  click the **Layer > Properties** menu item to open the **Layer Properties** dialog.</p>
+With the *Raleigh_Downtown* layer active,  click the **Layer > Properties** menu item to open the **Layer Properties** dialog.
 
-Once you click, the lesson will automatically move to the next step.
+Once clicked, the lesson will automatically move to the next step.

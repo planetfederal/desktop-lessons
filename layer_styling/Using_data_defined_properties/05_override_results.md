@@ -2,7 +2,7 @@ Now, although we are still using a single symbol renderer, the *Wake_MajorRoads*
 
 ![pen_width_override.png](pen_width_override.png)
 
-Besides, because we choose to use "map units", the lines are scaled to ground "real-size" values. So, if you zoom in, the line's width will increase.
+Because we chose to use "map units", the lines are scaled to "real-size" ground values. So, if you zoom in, the line's width will increase.
 
 ![pen_width_override_zoom.png](pen_width_override_zoom.png)
 

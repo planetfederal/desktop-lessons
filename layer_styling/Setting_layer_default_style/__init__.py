@@ -3,6 +3,7 @@ import os
 from lessons.lesson import Lesson, Step
 from qgis.utils import iface
 from lessons import addLessonModule
+from lessons.utils import copyLessonData
 
 
 # Copy dataset to the user's folder
