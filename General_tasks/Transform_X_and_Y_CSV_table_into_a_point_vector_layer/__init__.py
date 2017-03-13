@@ -3,6 +3,7 @@ from lessons.lesson import Lesson, Step
 from lessons.utils import *
 from qgis.utils import iface
 from lessons import addLessonModule
+from lessons.utils import copyLessonData
 
 
 def copyTable():
@@ -10,7 +11,7 @@ def copyTable():
     copyLessonData(filepath, os.path.basename(os.path.dirname(__file__)))
 
 
-lesson = Lesson ("Transform X and Y CSV table into a point vector layer",
+lesson = Lesson ("07. Transform X and Y CSV table into a point vector layer",
                  "General tasks", "lesson.html")
 
 lesson.addStep("Copy data", "Copy data", copyTable)
@@ -19,3 +20,5 @@ lesson.addStep('Configure importing settings', 'delimited_test_settings.html', s
 lesson.addStep('Set layer as active layer', 'set_active_layer.html', steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep('Layer/Save As...')
 lesson.addStep('Save the file as GeoPackage', 'save_as_geopackage.html', steptype=Step.MANUALSTEP)
+
+lesson.addNextLesson("General tasks", "08. Group layers")

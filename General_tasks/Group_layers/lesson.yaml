@@ -1,4 +1,4 @@
-name: Group layers
+name: 08. Group layers
 group: General tasks
 description: lesson.html
 steps:
@@ -16,7 +16,6 @@ steps:
 
     - name: Remove layer from group
       description: removelayer.html
-    
 nextLessons:
-    - name: Create visibility presets
+    - name: 09. Save map canvas as a georeferenced image
       group: General tasks

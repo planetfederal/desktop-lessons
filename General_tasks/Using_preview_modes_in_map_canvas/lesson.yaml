@@ -1,4 +1,4 @@
-name: Using preview modes in map canvas
+name: 10. Using preview modes in map canvas
 group: General tasks
 description: lesson.html
 steps:
@@ -21,3 +21,6 @@ steps:
 
     - name: Conclusion
       description: end.html
+nextLessons:
+    - name: 11. Create spatial bookmarks
+      group: General tasks

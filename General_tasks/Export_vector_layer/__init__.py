@@ -9,12 +9,12 @@ from qgis.utils import iface
 from lessons import addLessonModule
 
 
-lesson = Lesson("Export vector layer", "General tasks", "lesson.html")
+lesson = Lesson("01. Export vector layer", "General tasks", "lesson.html")
 lesson.addStep("Set 'points' layer as active layer", "activelayer.html",
                function=lambda: setActiveLayer("points"),
                endcheck=lambda: layerActive("points"),
                steptype=Step.MANUALSTEP)
-lesson.addMenuClickStep("Layer/Save As...")
+lesson.addMenuClickStep("Layer/Save As...", name="Click on 'Layer > Save As...' menu item.")
 lesson.addStep("Save layer to new format", "saveas.html", steptype=Step.MANUALSTEP)
-lesson.addNextLesson("General tasks", "Reproject vector layer")
+lesson.addNextLesson("General tasks", "02. Export raster layer")
 

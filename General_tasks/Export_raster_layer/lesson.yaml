@@ -1,4 +1,4 @@
-name: Export raster layer
+name: 02. Export raster layer
 group: General tasks
 description: lesson.html 
 steps:
@@ -9,5 +9,5 @@ steps:
       description: saveas.html
 
 nextLessons:
-    - name: Export raster layer (using Processing)
+    - name: 03. Export raster layer (using Processing)
       group: General tasks

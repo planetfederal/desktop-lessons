@@ -1,4 +1,4 @@
-name: Create visibility presets
+name: 12. Create visibility presets
 group: General tasks
 description: lesson.html
 steps:
@@ -13,3 +13,6 @@ steps:
 
     - name: Use presets
       description: usepresets.html
+nextLessons:
+    - name: 13. Add decorations to the map canvas
+      group: General tasks

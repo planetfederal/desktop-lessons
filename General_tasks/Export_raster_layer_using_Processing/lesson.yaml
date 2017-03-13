@@ -1,4 +1,4 @@
-name: Export raster layer (using Processing)
+name: 03. Export raster layer (using Processing)
 group: General tasks
 description: lesson.html 
 steps: 
@@ -10,3 +10,7 @@ steps:
 
     - name: Run the GDAL Translate algorithm
       description: runtranslate.html
+
+nextLessons:
+    - name: 04. Define vector layer CRS
+      group: General tasks

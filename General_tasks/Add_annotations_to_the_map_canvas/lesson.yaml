@@ -1,4 +1,4 @@
-name: Add annotations to the map canvas
+name: 14. Add annotations to the map canvas
 group: General tasks
 description: lesson.html
 steps:
@@ -19,6 +19,3 @@ steps:
 
     - name: Resize annotation
       description: resize_annotation.html
-nextLessons:
-    - name: Export raster layer (using Processing)
-      group: General tasks

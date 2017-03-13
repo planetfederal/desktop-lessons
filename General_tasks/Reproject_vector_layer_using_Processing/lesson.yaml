@@ -1,4 +1,4 @@
-name: Reproject vector layer (using Processing)
+name: 06. Reproject vector layer (using Processing)
 group: General tasks
 description: lesson.html 
 steps: 
@@ -11,3 +11,6 @@ steps:
     - name: Setup and run the Reproject layer algorithm
       description: runreproject.html
 
+nextLessons:
+    - name: 07. Transform X and Y CSV table into a point vector layer
+      group: General tasks

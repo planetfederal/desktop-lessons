@@ -9,7 +9,7 @@ from qgis.utils import iface
 from lessons import addLessonModule
 
 
-lesson = Lesson("Reproject vector layer", "General tasks", "lesson.html")
+lesson = Lesson("05. Reproject vector layer", "General tasks", "lesson.html")
 lesson.addStep("Set 'points' layer as active layer", "activelayer.html",
                function=lambda: setActiveLayer("points"),
                endcheck=lambda: layerActive("points"),
@@ -18,5 +18,5 @@ lesson.addMenuClickStep("Layer/Properties...", "openproperties.html")
 lesson.addStep("Confirm layer CRS", "confirmcrs.html", steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep("Layer/Save As...")
 lesson.addStep("Save a reprojected copy of the layer", "saveas.html", steptype=Step.MANUALSTEP)
-lesson.addNextLesson("General tasks", "Reproject vector layer (using Processing)")
+lesson.addNextLesson("General tasks", "06. Reproject vector layer (using Processing)")
 
