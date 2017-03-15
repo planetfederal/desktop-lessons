@@ -1,8 +1,11 @@
-name: 14. Add annotations to the map canvas
+name: 13. Add annotations to the map canvas
 group: General tasks
 description: lesson.html
 steps:
-    - name: Activate the Text Annotation Tool 
+    - name: Introduction
+      description: introduction.html
+
+    - name: Activate the Text Annotation Tool
       description: activate_text_annotation.html
 
     - name: Add annotation to map canvas
@@ -19,3 +22,6 @@ steps:
 
     - name: Resize annotation
       description: resize_annotation.html
+nextLessons:
+    - name: 14. Save map canvas as a georeferenced image
+      group: General tasks

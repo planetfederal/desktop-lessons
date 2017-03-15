@@ -2,6 +2,9 @@ name: 06. Reproject vector layer (using Processing)
 group: General tasks
 description: lesson.html 
 steps: 
+    - name: Introduction
+      description: introduction.html
+
     - name: Open Processing toolbox
       description: opentoolbox.html
 

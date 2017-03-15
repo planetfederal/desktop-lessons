@@ -1,7 +1,10 @@
 name: 03. Export raster layer (using Processing)
 group: General tasks
 description: lesson.html 
-steps: 
+steps:
+    - name: Introduction
+      description: introduction.html
+
     - name: Open Processing toolbox
       description: opentoolbox.html
 
@@ -12,5 +15,5 @@ steps:
       description: runtranslate.html
 
 nextLessons:
-    - name: 04. Define vector layer CRS
+    - name: 04. Set and define a vector layer CRS
       group: General tasks

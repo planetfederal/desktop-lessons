@@ -10,9 +10,10 @@ from lessons import addLessonModule
 
 
 lesson = Lesson("01. Export vector layer", "General tasks", "lesson.html")
-lesson.addStep("Set 'points' layer as active layer", "activelayer.html",
-               function=lambda: setActiveLayer("points"),
-               endcheck=lambda: layerActive("points"),
+lesson.addStep("Introduction", "introduction.html", steptype=Step.MANUALSTEP)
+lesson.addStep("Set 'Wake_Fire_Stations' layer as active layer", "activelayer.html",
+               function=lambda: setActiveLayer("Wake_Fire_Stations"),
+               endcheck=lambda: layerActive("Wake_Fire_Stations"),
                steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep("Layer/Save As...", name="Click on 'Layer > Save As...' menu item.")
 lesson.addStep("Save layer to new format", "saveas.html", steptype=Step.MANUALSTEP)

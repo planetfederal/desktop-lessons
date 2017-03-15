@@ -1,4 +1,4 @@
-name: 11. Create spatial bookmarks
+name: 10. Create spatial bookmarks
 group: General tasks
 description: lesson.html
 steps:
@@ -28,5 +28,5 @@ steps:
     - name: Use bookmarks
       description: use_bookmarks.html
 nextLessons:
-    - name: 12. Create visibility presets
+    - name: 11. Create layer visibility presets
       group: General tasks

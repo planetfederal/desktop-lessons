@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.14.6-Essen">
+<qgis projectname="" version="2.14.8-Essen">
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
@@ -107,8 +107,8 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2264" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PoliceStations_2010_0420161012180046813"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_OrthoKey_201020160419165730568"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raleigh_Historic_Overlay20160419165729616"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PoliceStations_2010_0420160419165730646"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:2264" srcDatumTransform="-1" destDatumTransform="-1" layerid="Services_heatmap20161018161623419"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PoliceStations_2010_0420160419165730646"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="Raleigh_Buildings_201320160419165729023"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_MajorRoads_2014_1120160419165730444"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wake_PublicShools_141520160419165730833"/>
@@ -608,9 +608,9 @@ def my_form_open(dialog, layer, feature):
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2199999997 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
-          <srsid>100001</srsid>
+          <srsid>100000</srsid>
           <srid>0</srid>
-          <authid>USER:100001</authid>
+          <authid>USER:100000</authid>
           <description> * Generated CRS (+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2199999997 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
           <projectionacronym>lcc</projectionacronym>
           <ellipsoidacronym>GRS80</ellipsoidacronym>
@@ -2469,6 +2469,14 @@ def my_form_open(dialog, layer, feature):
       <AlphaInt type="int">255</AlphaInt>
       <ColorRamp type="QString"></ColorRamp>
     </DefaultStyles>
+    <SemiAutomaticClassificationPlugin>
+      <bandSetPresent type="QString">No</bandSetPresent>
+      <bndSetWvLn type="QString">[]</bndSetWvLn>
+      <bndSetMultF type="QString">[]</bndSetMultF>
+      <bndSetUnit type="QString">band number</bndSetUnit>
+      <bandSet type="QString">[]</bandSet>
+      <bndSetAddF type="QString">[]</bndSetAddF>
+    </SemiAutomaticClassificationPlugin>
     <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSImageQuality type="int">90</WMSImageQuality>
@@ -2506,11 +2514,11 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
+        <value>Wake_Boundary_2010_0120161018161535683</value>
         <value>Wake_EMS_Stations20161012180046766</value>
         <value>Wake_Fire_Stations20161012180046797</value>
         <value>Wake_PoliceStations_2010_0420161012180046813</value>
         <value>Wake_PublicShools_141520161012180046828</value>
-        <value>Wake_Boundary_2010_0120161018161535683</value>
         <value>Services_heatmap20161018161623419</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">

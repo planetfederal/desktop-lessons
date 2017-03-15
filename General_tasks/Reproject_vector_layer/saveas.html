@@ -1,42 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <style>
-b, strong, i {
-    color: #22728d;
-}
-code {
-    color: #d72727;
-}
-ol {
-    margin-left: -10px;
-}
-</style>
-<body>
-    <p>In the <b>Save as vector layer as</b> dialog, do:</p>
-    <ol>
-        <li>
-            Select <i>ESRI Shapefile</i> as the <b>Format</b>.
-        </li>
-        <li>
-            Type directly on the <b>Save as</b> field or use the <b>Browse</b> button to select the destination and filename of the file to create.
-        </li>
-        <li>
-            In the <b>CRS</b> field, select the destination CRS. The points layer in the project is in the <i>EPSG:23030</i> CRS. Set it to <i>EPSG:23029</i>.
-        </li>
-        <p>
-            <img src='saveas.png'/>
-        </p>
-        <li>
-            Enable the <b>Add saved file to map</b> option.
-        </li>
-        <li>
-            Click <b>OK</b> to create the new layer.
-        </li>
-    </ol>
+<p>In the <b>Save as vector layer as</b> dialog, do:</p>
+<ol>
+    <li>
+        Select <i>ESRI Shapefile</i> as the <b>Format</b>.
+    </li>
+    <li>
+        Type directly on the <b>Save as</b> field or use the <b>Browse</b> button to select the destination and filename of the file to create. Set the filename as <code>Wake_Fire_Stations_WGS84.geojson</code>.
+    </li>
+    <li>
+        In the <b>CRS</b> field, select the destination CRS. The <i>Wake_Fire_Stations</i> layer is in the <i>EPSG:2264</i> CRS. Set it to <i>EPSG:4326 either using the drop-down menu or the <b>Select CRS</b> button to the right</i>.
+    </li>
+    <p>
+        <img src='saveas.png'/>
+    </p>
+    <li>
+        Enable the <b>Add saved file to map</b> option.
+    </li>
+    <li>
+        Click <b>OK</b> to create the new layer.
+    </li>
+</ol>
 <p>The new reprojected layer will load in the map canvas.</p>
-<p>
-    Once you are done, click <b>Next step</b> to finish the lesson.
-</p>
-
-</body>
-</html>
+<p>This step concludes the lessons. click <b>Finish</b> to end the lesson.</p>

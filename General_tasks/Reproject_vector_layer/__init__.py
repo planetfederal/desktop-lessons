@@ -10,9 +10,10 @@ from lessons import addLessonModule
 
 
 lesson = Lesson("05. Reproject vector layer", "General tasks", "lesson.html")
-lesson.addStep("Set 'points' layer as active layer", "activelayer.html",
-               function=lambda: setActiveLayer("points"),
-               endcheck=lambda: layerActive("points"),
+lesson.addStep("Introduction", "introduction.html", steptype=Step.MANUALSTEP)
+lesson.addStep("Set 'Wake_Fire_Stations' layer as active layer", "activelayer.html",
+               function=lambda: setActiveLayer("Wake_Fire_Stations"),
+               endcheck=lambda: layerActive("Wake_Fire_Stations"),
                steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep("Layer/Properties...", "openproperties.html")
 lesson.addStep("Confirm layer CRS", "confirmcrs.html", steptype=Step.MANUALSTEP)

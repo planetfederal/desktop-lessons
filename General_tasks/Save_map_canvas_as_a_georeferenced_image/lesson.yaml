@@ -1,8 +1,11 @@
-name: 09. Save map canvas as a georeferenced image
+name: 14. Save map canvas as a georeferenced image
 group: General tasks
 description: lesson.html
 steps:
-    - name: Set map canvas' size and scale
+    - name: Introduction
+      description: introduction.html
+
+    - name: Set map canvas's size and scale
       description: zoom_to_layer.html
 
     - menu: Project/Save as Image...
@@ -17,5 +20,5 @@ steps:
     - name: Load image
       description: load_image.html
 nextLessons:
-    - name: 10. Using preview modes in map canvas
+    - name: 09. Using preview modes in the map canvas
       group: General tasks
