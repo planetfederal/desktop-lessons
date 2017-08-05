@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<lesson>
+   <description>Lessons about third party integration in QGIS</description>
+   <lessons_list>Load ArcGIS REST service</lessons_list>
+   <url>http://lessons.connect.boundlessgeo.com/third_party.zip</url>
+</lesson>
