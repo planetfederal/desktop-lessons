@@ -6,13 +6,13 @@ import yaml
 def main ():
 
     # Get file path from first argument passed in command line
-    fl_path = sys.argv[1]
+    fl_path = sys.argv[2]
     folder = os.path.dirname(fl_path)
     s_file = None
     s_list= []
     l_structure = {'name': '',
                    'group': '',
-                   'description': 'lesson.html',
+                   'description': 'lesson.md',
                    'steps': [],
                    'nextLessons': [{'name': '', 'group': ''}]}
     s_number = 0
@@ -26,9 +26,9 @@ def main ():
 
             if l:
                 l_title = (l.group(0))[2:]
-                next(full_lesson) #skip empty line after heading
-                pline_header = True
                 l_structure['name'] = l_title
+                s_file = open(os.path.join(folder, 'lesson.md'), 'w+')
+                next(full_lesson) # skip empty line after heading
 
             # Get step title from markdown heading 2
             elif s:
@@ -42,18 +42,16 @@ def main ():
 
                 # Close description file from previous step
                 if s_file != None:
+                    clean_empty_lines(s_file)
                     s_file.close()
-
                 # Open step description file
-                s_file = open(os.path.join(folder, s_file_name), 'w')
-                pline_header = True
+                s_file = open(os.path.join(folder, s_file_name), 'w+')
 
-            # Skip blanklines
-            elif b and pline_header:
-                pline_header = True
+                next(full_lesson) # skip empty line after heading
+
+            # Get step description
             else:
                 s_file.write(line) #Write to opened file
-                pline_header = False
 
         s_file.close()
 
@@ -62,6 +60,18 @@ def main ():
         yaml.dump(l_structure, yaml_file, default_flow_style=False,
                   allow_unicode=True)
     print "Splitting was completed."
+
+def clean_empty_lines(open_file):
+    open_file.seek(0, os.SEEK_END)
+    pos = open_file.tell() -1
+    # Read the file backwords until it finds an non end of line character
+    while pos > 0 and open_file.read(1) != '\n':
+        pos -= 1
+        open_file.seek(pos, os.SEEK_SET)
+
+    if pos > 0:
+        open_file.seek(pos, os.SEEK_SET)
+        open_file.truncate()
 
 if __name__ == '__main__':
     main()
