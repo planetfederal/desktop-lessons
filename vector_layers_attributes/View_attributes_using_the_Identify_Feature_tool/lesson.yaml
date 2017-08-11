@@ -1,0 +1,23 @@
+description: lesson.md
+group: Vector layer attributes
+name: 01. View attributes using the Identify Feature tool
+steps:
+- description: 01_introduction.md
+  name: Introduction
+- description: 02_enabling_the_identify_features_tool.md
+  name: Enabling the Identify Features tool
+- description: 03_use_identify_features_tool_in_the_map_canvas.md
+  name: Use Identify Features tool in the map canvas
+- description: 04_identify_more_than_one_feature.md
+  name: Identify more than one feature
+- description: 05_identify_features_from_multiple_layers.md
+  name: Identify features from multiple layers
+- description: 06_opening_the_feature_form.md
+  name: Opening the Feature Form
+- description: 07_enable_auto_open_form.md
+  name: Enable Auto open form
+- description: 08_clear_identify_feature_results.md
+  name: Clear Identify Feature Results
+nextLessons:
+- group: Vector layer attributes
+  name: 02.

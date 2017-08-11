@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<lesson>
+   <description>Lessons on working with vector layers attributes.</description>
+   <lessons_list>Vector rule-based symbols,Raster multiband styling,Labelling vector layers,Raster singleband styling,Setting layer default style,Manage multiple styles in a layer,Vector graduated symbols,Vector categorized symbols,Create proportional symbols</lessons_list>
+   <url>http://lessons.connect.boundlessgeo.com/layer_styling.zip</url>
+</lesson>
