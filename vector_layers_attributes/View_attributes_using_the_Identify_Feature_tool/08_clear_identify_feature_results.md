@@ -4,5 +4,4 @@ results** button in the **Identify Results** panel toolbar.
 
 ![clear_identify_results.png](clear_identify_results.png)
 
-
 This step ends the lesson, click **Finish Lesson**.

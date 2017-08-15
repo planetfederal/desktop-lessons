@@ -20,4 +20,4 @@ steps:
   name: Clear Identify Feature Results
 nextLessons:
 - group: Vector layer attributes
-  name: 02.
+  name: 02. View attributes using the Attribute table
