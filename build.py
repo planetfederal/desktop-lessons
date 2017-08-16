@@ -4,7 +4,7 @@ import shutil
 import re
 
 def main ():
-    exclude = [".git"]
+    exclude = [".git","_lessons",".idea","_template"]
     folder = os.path.dirname(os.path.realpath(__file__))
     for name in os.listdir(folder):             
         if name not in exclude:             
@@ -17,7 +17,7 @@ def main ():
                 manifestFile = os.path.join(fullpath, "lesson.manifest")
                 with open(manifestFile) as f:
                     manifest = f.read()
-                manifest = re.sub(r"(<lessons_list>).*?(</lessons_list>)", r"\1%s\2" % ",".join(lessons), manifest)
+                manifest = re.sub(r"(<lessons_list>).*?(</lessons_list>)", r"\1%s\2" % ", ".join(lessons), manifest)
                 with open(manifestFile, "w") as f:
                     f.write(manifest)
                 shutil.make_archive(os.path.join(folder, name), "zip", fullpath)
