@@ -27,4 +27,4 @@ steps:
   name: Confirm the results
 nextLessons:
 - group: Vector layer attributes
-  name: 05 ...
+  name: 05. Select features using an expression
