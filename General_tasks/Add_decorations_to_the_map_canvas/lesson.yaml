@@ -1,24 +1,26 @@
-name: 12. Add decorations to the map canvas
-group: General tasks
-description: lesson.html
-steps:
-    - name: Introduction
-      description: introduction.html
+lesson:
+  en:
+    name: 12. Add decorations to the map canvas
+    group: General tasks
+    description: lesson.html
+    steps:
+        - name: Introduction
+          description: introduction.html
 
-    - menu: View/Decorations/Scale Bar
+        - menu: View/Decorations/Scale Bar
 
-    - name: Set Scale bar options
-      description: scale_bar_settings.html
+        - name: Set Scale bar options
+          description: scale_bar_settings.html
 
-    - menu: View/Decorations/North Arrow
+        - menu: View/Decorations/North Arrow
 
-    - name: Set North Arrow options
-      description: north_arrow_settings.html
+        - name: Set North Arrow options
+          description: north_arrow_settings.html
 
-    - menu: View/Decorations/Grid
+        - menu: View/Decorations/Grid
 
-    - name: Set Grid options
-      description: grid_settings.html
-nextLessons:
-    - name: 13. Add annotations to the map canvas
-      group: General tasks
+        - name: Set Grid options
+          description: grid_settings.html
+    nextLessons:
+        - name: 13. Add annotations to the map canvas
+          group: General tasks

@@ -1,24 +1,26 @@
-name: 08. Group layers
-group: General tasks
-description: lesson.html
-steps:
-    - name: Introduction
-      description: introduction.html
+lesson:
+  en:
+    name: 08. Group layers
+    group: General tasks
+    description: lesson.html
+    steps:
+        - name: Introduction
+          description: introduction.html
 
-    - name: Make multiple layers active
-      description: selectlayers.html
+        - name: Make multiple layers active
+          description: selectlayers.html
 
-    - name: Group selected layers
-      description: groupselected.html
-      
-    - name: Rename group
-      description: renamegroup.html
+        - name: Group selected layers
+          description: groupselected.html
 
-    - name: Add layer to group
-      description: addlayer.html
+        - name: Rename group
+          description: renamegroup.html
 
-    - name: Remove layer from group
-      description: removelayer.html
-nextLessons:
-    - name: 09. Save map canvas as a georeferenced image
-      group: General tasks
+        - name: Add layer to group
+          description: addlayer.html
+
+        - name: Remove layer from group
+          description: removelayer.html
+    nextLessons:
+        - name: 09. Save map canvas as a georeferenced image
+          group: General tasks

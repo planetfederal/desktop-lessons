@@ -1,19 +1,21 @@
-name: 03. Export raster layer (using Processing)
-group: General tasks
-description: lesson.html 
-steps:
-    - name: Introduction
-      description: introduction.html
+lesson:
+  en:
+    name: 03. Export raster layer (using Processing)
+    group: General tasks
+    description: lesson.html
+    steps:
+        - name: Introduction
+          description: introduction.html
 
-    - name: Open Processing toolbox
-      description: opentoolbox.html
+        - name: Open Processing toolbox
+          description: opentoolbox.html
 
-    - name: Open the GDAL Translate algorithm
-      description: opentranslate.html
+        - name: Open the GDAL Translate algorithm
+          description: opentranslate.html
 
-    - name: Run the GDAL Translate algorithm
-      description: runtranslate.html
+        - name: Run the GDAL Translate algorithm
+          description: runtranslate.html
 
-nextLessons:
-    - name: 04. Set and define a vector layer CRS
-      group: General tasks
+    nextLessons:
+        - name: 04. Set and define a vector layer CRS
+          group: General tasks

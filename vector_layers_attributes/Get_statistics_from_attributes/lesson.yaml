@@ -1,17 +1,19 @@
-description: lesson.md
-group: Vector layer attributes
-name: 03. Get statistics from attributes
-steps:
-- description: 01_introduction.md
-  name: Introduction
-- description: 02_enable_the_statistics_panel.md
-  name: Enable the Statistics Panel
-- description: 03_get_statistics_from_a_field.md
-  name: Get statistics from a field
-- description: 04_choose_statistics_to_show.md
-  name: Choose statistics to show
-- description: 05_statistics_over_an_expression.md
-  name: Statistics over an expression
-nextLessons:
-- group: Vector layer attributes
-  name: 04. Filter layer by attributes
+lesson:
+  en:
+    description: lesson.md
+    group: Vector layer attributes
+    name: 03. Get statistics from attributessdfsdfsdf
+    steps:
+    - description: 01_introduction.md
+      name: Introduction
+    - description: 02_enable_the_statistics_panel.md
+      name: Enable the Statistics Panel
+    - description: 03_get_statistics_from_a_field.md
+      name: Get statistics from a field
+    - description: 04_choose_statistics_to_show.md
+      name: Choose statistics to show
+    - description: 05_statistics_over_an_expression.md
+      name: Statistics over an expression
+    nextLessons:
+    - group: Vector layer attributes
+      name: 04. Filter layer by attributes

@@ -1,23 +1,25 @@
-description: lesson.md
-group: Vector layer attributes
-name: 05. Select features using an expression
-steps:
-- description: 01_introduction.md
-  name: Introduction
-- description: 02_open_select_by_expression_dialog.md
-  name: Open Select by Expression Dialog
-  menu: View/Select/Select by Expression...
-- description: 03_build_an_expression.md
-  name: Build an expression
-- description: 04_confirm_the_selection.md
-  name: Confirm the selection
-- description: 05_open_select_by_expression_dialog_again.md
-  name: Open Select by Expression dialog
-  menu: View/Select/Select by Expression...
-- description: 06_select_within_selection.md
-  name: Select within selection
-- description: 07_confirm_the_selection.md
-  name: Confirm the selection
-nextLessons:
-- group: Vector layer attributes
-  name: 05. ...
+lesson:
+  en:
+    description: lesson.md
+    group: Vector layer attributes
+    name: 05. Select features using an expression
+    steps:
+    - description: 01_introduction.md
+      name: Introduction
+    - description: 02_open_select_by_expression_dialog.md
+      name: Open Select by Expression Dialog
+      menu: View/Select/Select by Expression...
+    - description: 03_build_an_expression.md
+      name: Build an expression
+    - description: 04_confirm_the_selection.md
+      name: Confirm the selection
+    - description: 05_open_select_by_expression_dialog_again.md
+      name: Open Select by Expression dialog
+      menu: View/Select/Select by Expression...
+    - description: 06_select_within_selection.md
+      name: Select within selection
+    - description: 07_confirm_the_selection.md
+      name: Confirm the selection
+    nextLessons:
+    - group: Vector layer attributes
+      name: 05. ...

@@ -1,32 +1,34 @@
-name: 10. Create spatial bookmarks
-group: General tasks
-description: lesson.html
-steps:
-    - name: Introduction
-      description: introduction.html
+lesson:
+  en:
+    name: 10. Create spatial bookmarks
+    group: General tasks
+    description: lesson.html
+    steps:
+        - name: Introduction
+          description: introduction.html
 
-    - menu: View/Zoom In
+        - menu: View/Zoom In
 
-    - name: Zoom to Raleigh city center
-      description: zoom_to_raleigh.html
+        - name: Zoom to Raleigh city center
+          description: zoom_to_raleigh.html
 
-    - menu: View/New Bookmark...
+        - menu: View/New Bookmark...
 
-    - name: Give bookmark a name
-      description: bookmark_name_raleigh.html
+        - name: Give bookmark a name
+          description: bookmark_name_raleigh.html
 
-    - name: Make Wake boundaries as active layer
-      description: active_layer.html
-    
-    - menu: View/Zoom to Layer
+        - name: Make Wake boundaries as active layer
+          description: active_layer.html
 
-    - menu: View/New Bookmark...
+        - menu: View/Zoom to Layer
 
-    - name: Give bookmark a name
-      description: bookmark_name_wake.html
+        - menu: View/New Bookmark...
 
-    - name: Use bookmarks
-      description: use_bookmarks.html
-nextLessons:
-    - name: 11. Create layer visibility presets
-      group: General tasks
+        - name: Give bookmark a name
+          description: bookmark_name_wake.html
+
+        - name: Use bookmarks
+          description: use_bookmarks.html
+    nextLessons:
+        - name: 11. Create layer visibility presets
+          group: General tasks

@@ -1,21 +1,23 @@
-name: 11. Create layer visibility presets
-group: General tasks
-description: lesson.html
-steps:
-    - name: Introduction
-      description: introduction.html
+lesson:
+  en:
+    name: 11. Create layer visibility presets
+    group: General tasks
+    description: lesson.html
+    steps:
+        - name: Introduction
+          description: introduction.html
 
-    - name: Create a preset
-      description: createpreset1.html
+        - name: Create a preset
+          description: createpreset1.html
 
-    - name: "Change layer's visibility"
-      description: changelayervisibility.html
-      
-    - name: Create another preset
-      description: createpreset2.html
+        - name: "Change layer's visibility"
+          description: changelayervisibility.html
 
-    - name: Use presets
-      description: usepresets.html
-nextLessons:
-    - name: 12. Add decorations to the map canvas
-      group: General tasks
+        - name: Create another preset
+          description: createpreset2.html
+
+        - name: Use presets
+          description: usepresets.html
+    nextLessons:
+        - name: 12. Add decorations to the map canvas
+          group: General tasks

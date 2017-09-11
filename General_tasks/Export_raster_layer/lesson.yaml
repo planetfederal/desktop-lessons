@@ -1,13 +1,15 @@
-name: 02. Export raster layer
-group: General tasks
-description: lesson.html 
-steps:
-    - name: Open 'Translate' tool
-      description: opentranslate.html
+lesson:
+  en:
+    name: 02. Export raster layer
+    group: General tasks
+    description: lesson.html
+    steps:
+        - name: Open 'Translate' tool
+          description: opentranslate.html
 
-    - name: Save the file as ArcInfo ASCII
-      description: saveas.html
+        - name: Save the file as ArcInfo ASCII
+          description: saveas.html
 
-nextLessons:
-    - name: 03. Export raster layer (using Processing)
-      group: General tasks
+    nextLessons:
+        - name: 03. Export raster layer (using Processing)
+          group: General tasks

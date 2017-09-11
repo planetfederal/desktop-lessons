@@ -1,19 +1,21 @@
-description: lesson.md
-group: Vector layer attributes
-name: 02. View attributes using the Attribute table
-steps:
-- description: 01_introduction.md
-  name: Introduction
-- description: 02_open_attribute_table.md
-  name: Open attribute table
-- description: 03_selecting_features.md
-  name: Selecting features
-- description: 04_emphasizing_selected_rows.md
-  name: Emphasizing selected rows
-- description: 05_viewing_attributes_in_form_mode.md
-  name: Viewing attributes in Form mode
-- description: 06_filter_rows_by_column_values.md
-  name: Filter rows by column values
-nextLessons:
-- group: 'Vector layer attributes'
-  name: '03. '
+lesson:
+  en:
+    description: lesson.md
+    group: Vector layer attributes
+    name: 02. View attributes using the Attribute table
+    steps:
+    - description: 01_introduction.md
+      name: Introduction
+    - description: 02_open_attribute_table.md
+      name: Open attribute table
+    - description: 03_selecting_features.md
+      name: Selecting features
+    - description: 04_emphasizing_selected_rows.md
+      name: Emphasizing selected rows
+    - description: 05_viewing_attributes_in_form_mode.md
+      name: Viewing attributes in Form mode
+    - description: 06_filter_rows_by_column_values.md
+      name: Filter rows by column values
+    nextLessons:
+    - group: 'Vector layer attributes'
+      name: '03. '

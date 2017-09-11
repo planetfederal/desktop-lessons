@@ -1,26 +1,28 @@
-name: 09. Using preview modes in the map canvas
-group: General tasks
-description: lesson.html
-steps:
-    - name: Introduction
-      description: introduction.html
+lesson:
+  en:
+    name: 09. Using preview modes in the map canvas
+    group: General tasks
+    description: lesson.html
+    steps:
+        - name: Introduction
+          description: introduction.html
 
-    - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
+        - menu: View/Preview Mode/Simulate Photocopy (Grayscale)
 
-    - name: Testing grayscale
-      description: grayscale.html
+        - name: Testing grayscale
+          description: grayscale.html
 
-    - menu: View/Preview Mode/Simulate Color Blindness (Protanope)
+        - menu: View/Preview Mode/Simulate Color Blindness (Protanope)
 
-    - name: Testing Color Blindness
-      description: colorblindness.html
+        - name: Testing Color Blindness
+          description: colorblindness.html
 
-    - menu: View/Preview Mode/Simulate Fax (Mono)
- 
-    - menu: View/Preview Mode/Simulate Color Blindness (Deuteranope)
+        - menu: View/Preview Mode/Simulate Fax (Mono)
 
-    - name: Conclusion
-      description: end.html
-nextLessons:
-    - name: 10. Create spatial bookmarks
-      group: General tasks
+        - menu: View/Preview Mode/Simulate Color Blindness (Deuteranope)
+
+        - name: Conclusion
+          description: end.html
+    nextLessons:
+        - name: 10. Create spatial bookmarks
+          group: General tasks
