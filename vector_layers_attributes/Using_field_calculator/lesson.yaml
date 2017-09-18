@@ -1,0 +1,45 @@
+lesson:
+  en:
+    description: lesson.md
+    group: Vector layer attributes
+    name: 07. Using the field calculator
+    steps:
+    - description: 01_introduction.md
+      name: Introduction
+    - description: 02_open_the_attribute_table.md
+      name: Open the attribute table
+    - description: 03_open_the_field_calculator.md
+      name: Open the field calculator
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsFieldCalculatorBase
+        - 300
+        - 1000
+    - description: 04_update_an_existing_field.md
+      name: Update an existing field
+    - description: 05_open_the_field_calculator.md
+      name: Open the field calculator
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsFieldCalculatorBase
+        - 300
+        - 1000
+    - description: 06_create_new_field.md
+      name: Create new field
+    - description: 07_open_the_field_calculator.md
+      name: Open the field calculator
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsFieldCalculatorBase
+        - 300
+        - 1000
+    - description: 08_create_a_virtual_field.md
+      name: Create a virtual field
+    - description: 09_confirm_that_virtual_field_updates.md
+      name: Confirm that virtual field updates
+    nextLessons:
+    - group: Vector layer attributes
+      name: 08. Edit multiple features attributes
