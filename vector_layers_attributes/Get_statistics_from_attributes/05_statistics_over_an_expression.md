@@ -24,4 +24,4 @@ expression for each feature.
 
 ![stats_on_expression.png](stats_on_expression.png)
 
-This step ends the lesson, click *Finish Lesson**.
+This step ends the lesson, click **Finish**.

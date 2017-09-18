@@ -2,7 +2,7 @@ lesson:
   en:
     description: lesson.md
     group: Vector layer attributes
-    name: 03. Get statistics from attributessdfsdfsdf
+    name: 03. Get statistics from attributes
     steps:
     - description: 01_introduction.md
       name: Introduction
