@@ -8,13 +8,18 @@ them permanently in the data source.
     ![save_layer_editis_button](save_layer_editis_button.png)
 
 - Alternatively, in the **Attribute table** toolbar, click the
-**Save Edits** button.
+  **Save Edits** button.
 
     ![save_edits_button](save_edits_button.png)
 
-**Note:** Using the **Save** or **Save as** buttons in the Project
-toolbar, **WILL NOT SAVE CHANGES TO THE DATA**.
+---
+
+**NOTE:** Using the **Save** or **Save as** buttons in the **Project
+toolbar**, <span style="color:red"> WILL NOT SAVE CHANGES TO THE
+DATA</span>.
 
 ![warning_save_buttons](warning_save_buttons.png)
+
+---
 
 Click **Next step** once you are done.

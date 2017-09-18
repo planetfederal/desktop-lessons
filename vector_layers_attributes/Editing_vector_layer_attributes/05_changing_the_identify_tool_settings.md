@@ -13,7 +13,7 @@ the **Auto open form** is enabled.
 
     ![identify_settings](identify_settings.png)
 
-Ith this settings, when you click on a single feature from the currently
+With this settings, when you click on a single feature from the currently
 active layer on the map canvas, the corresponding **Feature Attributes**
 form opens.
 

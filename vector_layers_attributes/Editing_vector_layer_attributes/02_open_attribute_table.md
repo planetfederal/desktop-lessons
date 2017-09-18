@@ -13,7 +13,7 @@ toolbar**.
 
     ![open_attribute_table_button.png](open_attribute_table_button.png)
 
-An **Attribute Table** window for the *Buildings* will open
+An **Attribute Table** window for the *Buildings* layer will open
 listing all of the layer's 536 features attributes in a table.
 
 ![attribute_table_example.png](attribute_table_example.png)

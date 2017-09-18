@@ -10,6 +10,11 @@ lesson:
       name: Open attribute table
     - description: 03_turn_layer_into_editing_mode.md
       name: Turn layer into editing mode
+
+      endcheck:
+        name: isLayerEditable
+        params:
+          - Buildings
     - description: 04_editing_the_attributes_in_the_attribute_table.md
       name: Editing the attributes in the attribute table
     - description: 05_changing_the_identify_tool_settings.md

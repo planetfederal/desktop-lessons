@@ -17,4 +17,4 @@ can also be used to revert any unsaved changes by clicking **Discard**.
 
 ![warning_save](warning_save.png)
 
-This step ends the lesson, click **Finish Lesson**.
+This step ends the lesson, click **Finish**.
