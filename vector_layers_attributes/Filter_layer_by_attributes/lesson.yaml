@@ -6,23 +6,38 @@ lesson:
     steps:
     - description: 01_introduction.md
       name: Introduction
-    - menu: Layer/Filter...
-      description: 02_open_query_builder.md
+    - description: 02_open_query_builder.md
       name: Open Query Builder
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsQueryBuilderBase
+        - 300
+        - 1000
     - description: 03_setting_the_where_clause.md
       name: Setting the WHERE clause
     - description: 04_confirm_the_results.md
       name: Confirm the results
-    - menu: Layer/Filter...
-      description: 05_open_query_builder.md
+    - description: 05_open_query_builder.md
       name: Open Query Builder
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsQueryBuilderBase
+        - 300
+        - 1000
     - description: 06_modify_the_where_clause.md
       name: Modify the WHERE clause
     - description: 07_confirm_the_changes.md
       name: Confirm the changes
-    - menu: Layer/Filter...
-      description: 08_open_query_builder.md
+    - description: 08_open_query_builder.md
       name: Open Query Builder
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsQueryBuilderBase
+        - 300
+        - 1000
     - description: 09_clear_filter.md
       name: Clear filter
     - description: 10_confirm_the_results.md

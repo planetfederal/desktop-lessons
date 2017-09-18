@@ -9,4 +9,6 @@ right-click the *Census_blocks_2010* and choose **Filter...**.
 - Alternatively, having the *Census_blocks_2010* layer active,
 you can use the menus, **Layers > Filter...** to open the **Query Builder**.
 
-Once you click, the lesson will move to the next step.
+The **Query builder** opens.
+
+Click **Next step** once you are done.

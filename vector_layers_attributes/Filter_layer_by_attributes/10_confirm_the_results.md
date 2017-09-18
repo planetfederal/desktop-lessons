@@ -13,4 +13,4 @@ with the different values for the *TRACTCE10* attribute are now showing.
 
     ![all_features_showing_table.png](all_features_showing_table.png)
 
-This step ends the lesson, click **Finish Lesson**.
+This step ends the lesson, click **Finish**.

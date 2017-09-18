@@ -1,4 +1,4 @@
-The **Query builder** opens. In it, we can type or build the WHERE
+In the **Query builder**, we can type or build the WHERE
 clause of a SQL query to filter the layer.
 
 - From the **Fields** list, double-click the `TRACTCE10` variable to add
