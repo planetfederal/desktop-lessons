@@ -1,0 +1,43 @@
+lesson:
+  en:
+    description: lesson.md
+    group: Vector layer attributes
+    name: 08. Edit multiple features attributes
+    steps:
+    - description: 01_introduction.md
+      name: Introduction
+    - description: 02_select_features_to_update.md
+      name: Select features to update
+    - description: 03_open_attribute_table.md
+      name: Open attribute table
+    - description: 04_turn_layer_into_editing_mode.md
+      name: Turn layer into editing mode
+
+      endcheck:
+        name: isLayerEditable
+        params:
+          - Buildings
+    - description: 05_update_a_field_of_the_selected_features.md
+      name: Update a field of the selected features
+
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsFieldCalculatorBase
+        - 300
+        - 1000
+    - description: 06_confirm_the_changes.md
+      name: Confirm the changes
+    - description: 07_change_multiple_features_attributes_using_the_quick_bar.md
+      name: Change multiple features attributes using the quick bar
+    - description: 08_edit_multiple_fields_using_multi_edit_mode.md
+      name: Edit multiple fields using multi edit mode
+    - description: 09_confirm_multiple_field_changes.md
+      name: Confirm multiple field changes
+    - description: 10_save_changes_to_the_attributes.md
+      name: Save changes to the attributes
+    - description: 11_turn_editing_mode_off.md
+      name: Turn editing mode off
+    nextLessons:
+    - group: Vector layer attributes
+      name: 09. Join attribute tables
