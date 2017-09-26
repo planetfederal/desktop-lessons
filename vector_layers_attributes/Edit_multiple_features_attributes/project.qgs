@@ -5,13 +5,13 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="raleigh_downtown20161228143332835" source="E:/boundless/repos/desktop-lessons/vector_layers_attributes/Edit multiple features attributes/data/raleigh_downtown.shp" name="Raleigh downtown">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="raleigh_downtown20161228143332835" source="E:/boundless/repos/desktop-lessons/vector_layers_attributes/Edit_multiple_features_attributes/data/raleigh_downtown.shp" name="Raleigh downtown">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="raleigh_downtown_streets20161228143254740" source="E:/boundless/repos/desktop-lessons/vector_layers_attributes/Edit multiple features attributes/data/raleigh_downtown_streets.shp" name="Streets">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="raleigh_downtown_streets20161228143254740" source="E:/boundless/repos/desktop-lessons/vector_layers_attributes/Edit_multiple_features_attributes/data/raleigh_downtown_streets.shp" name="Streets">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="raleigh_downtown_buildings20170320122317569" source="E:/boundless/repos/desktop-lessons/vector_layers_attributes/Edit multiple features attributes/data/raleigh_downtown_buildings.shp" name="Buildings">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="raleigh_downtown_buildings20170320122317569" source="E:/boundless/repos/desktop-lessons/vector_layers_attributes/Edit_multiple_features_attributes/data/raleigh_downtown_buildings.shp" name="Buildings">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -19,10 +19,10 @@
   <mapcanvas>
     <units>feet</units>
     <extent>
-      <xmin>2108538.56693823775276542</xmin>
-      <ymin>736499.42365499236620963</ymin>
-      <xmax>2109218.90961974998936057</xmax>
-      <ymax>737517.45137102552689612</ymax>
+      <xmin>2108153.50982284685596824</xmin>
+      <ymin>736582.06148340972140431</ymin>
+      <xmax>2108833.85250435909256339</xmax>
+      <ymax>737600.08919944288209081</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -201,7 +201,7 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <Composer title="A4 portrait" visible="1">
+  <Composer title="A4 portrait" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -254,7 +254,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="222.915" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.1386" y="222.915" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.723" outlineWidth="0.3" excludeFromExports="0" uuid="{5aa84e88-5af7-4adf-a9e4-2f84832130bc}" height="61.1" itemRotation="0" frame="false" pagex="16.1386">
+        <ComposerItem pagey="222.915" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="16.1386" y="222.915" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="127.5" outlineWidth="0.3" excludeFromExports="0" uuid="{5aa84e88-5af7-4adf-a9e4-2f84832130bc}" height="55.9" itemRotation="0" frame="false" pagex="16.1386">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -313,7 +313,7 @@
           <annotationFontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="21.0793" page="1" id="" lastValidViewScaleFactor="1.82979" positionMode="0" positionLock="false" x="16.2886" y="21.0793" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.423" outlineWidth="0.3" excludeFromExports="0" uuid="{6f50d521-9f0f-48c1-859f-ffd55c041a73}" height="196.057" itemRotation="0" frame="true" pagex="16.2886">
+        <ComposerItem pagey="21.0793" page="1" id="" lastValidViewScaleFactor="1.34468" positionMode="0" positionLock="false" x="16.2886" y="21.0793" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.423" outlineWidth="0.3" excludeFromExports="0" uuid="{6f50d521-9f0f-48c1-859f-ffd55c041a73}" height="196.057" itemRotation="0" frame="true" pagex="16.2886">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>

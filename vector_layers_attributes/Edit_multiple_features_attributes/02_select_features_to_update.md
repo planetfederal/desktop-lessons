@@ -24,4 +24,7 @@ All selected buildings will be rendered in bright yellow.
 
 ![buildings_are_selected](buildings_are_selected.png)
 
+If necessary, click **Solve Step** to automatically select the block's
+buildings.
+
 Click **Next step** once you are done.
