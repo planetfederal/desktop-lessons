@@ -1,0 +1,18 @@
+lesson:
+  en:
+    description: lesson.md
+    group: Vector layer attributes
+    name: 09. Join table to vector layer
+    steps:
+    - description: 01_introduction.md
+      name: Introduction
+    - description: 02_inspect_attributes_of_polygon_layer.md
+      name: Inspect attributes of polygon layer
+    - description: 03_inspect_attribute_of_tabular_layer.md
+      name: Inspect attribute of tabular layer
+    - description: 04_open_layer_properties.md
+      name: Open layer properties
+    - description: 05_add_vector_join.md
+      name: Add vector join
+    - description: 06_inspect_polygon_layer_attributes_(again).md
+      name: Inspect polygon layer attributes (again)
