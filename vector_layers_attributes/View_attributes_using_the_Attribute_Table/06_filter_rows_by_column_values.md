@@ -32,4 +32,4 @@ attribute table.
 
 ![table_filtered_by_field.png](table_filtered_by_field.png)
 
-This step ends the lesson, click **Finish Lesson**.
+This step ends the lesson, click **Finish**.

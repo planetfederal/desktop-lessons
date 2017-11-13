@@ -2,7 +2,7 @@ lesson:
   en:
     description: lesson.md
     group: Vector layer attributes
-    name: 09. Join table to vector layer
+    name: 08. Edit multiple features attributes
     steps:
     - description: 01_introduction.md
       name: Introduction
@@ -93,4 +93,4 @@ lesson:
 
     nextLessons:
     - group: Vector layer attributes
-      name: 09. Join attribute tables
+      name: 09. Join table to vector layer

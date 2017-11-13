@@ -17,6 +17,6 @@ lesson.addStep("Set 'Wake_BlockGroup_2010' layer as active layer", "activelayer.
                steptype=Step.MANUALSTEP)
 lesson.addMenuClickStep("Layer/Set CRS of Layer(s)")
 lesson.addStep("Set the layer's correct CRS", "setcrs.html", steptype=Step.MANUALSTEP)
-lesson.addMenuClickStep("Vector/Data Management Tools/Define Current Projection...", "gotodefineprojection.html")
+lesson.addMenuClickStep("Vector/Data Management Tools/Define current projection", "gotodefineprojection.html")
 lesson.addStep("Define new CRS to file", "defineprojection.html", steptype=Step.MANUALSTEP)
 lesson.addNextLesson("General tasks", "05. Reproject vector layer")
