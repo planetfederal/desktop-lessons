@@ -31,9 +31,12 @@ lesson:
         - 1000
 
       endcheck:
-        name: fieldExists
+        name: checkJoinExists
         params:
           - Blocks 2010
-          - TOTAL_POP
+          - GEOID10
+          - 2010_demographics
+          - BLOCKID
+
     - description: 06_inspect_polygon_layer_attributes_(again).md
       name: Inspect polygon layer attributes (again)
