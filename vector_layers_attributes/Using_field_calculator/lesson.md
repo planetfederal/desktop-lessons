@@ -1,3 +1,5 @@
+# Using the field calculator
+
 In a previous lesson, we have seen how to edit a feature's attributes
 either by using the attribute table or the feature form. But often we
 need to update an attribute for all the layer features. For that

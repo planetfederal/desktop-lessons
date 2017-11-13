@@ -1,3 +1,5 @@
+# Select features using an expression
+
 With vector data, one of the most useful functionalities is the ability
 to select features in a layer. Selected layers can be used to create a
 subset to export only the selected features, or to determine which

@@ -1,3 +1,5 @@
+# Filter layer by attributes
+
 In projects that use vector data, one of the common needs is to filter a
 layer only to show certain features. This functionality is useful when
 you don't want to create an independent subset on disk for a particular

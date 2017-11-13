@@ -1,3 +1,5 @@
+# View attributes using the identify features tool
+
 In a vector layer, each feature is made of a geometry and a set of
 alphanumerical attributes. In QGIS, there are different ways of viewing
 those attributes. In this lesson, we show how to use the Identify

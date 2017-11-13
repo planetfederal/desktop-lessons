@@ -1,3 +1,5 @@
+# Join table to vector layer
+
 While working with Vector layers, it is common to have non-spatial data,
 in tabular form, that needs to be appended to spatial data for visualization.
 In QGIS, assuming both datasets have a common field, you can use table
