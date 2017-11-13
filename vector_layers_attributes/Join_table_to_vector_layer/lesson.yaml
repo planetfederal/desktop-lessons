@@ -12,7 +12,28 @@ lesson:
       name: Inspect attribute of tabular layer
     - description: 04_open_layer_properties.md
       name: Open layer properties
+
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsVectorLayerPropertiesBase
+        - 300
+        - 1000
+
     - description: 05_add_vector_join.md
       name: Add vector join
+
+      prestep:
+        name: utils.unmodalWidget
+        params:
+        - QgsJoinDialog
+        - 300
+        - 1000
+
+      endcheck:
+        name: fieldExists
+        params:
+          - Blocks 2010
+          - TOTAL_POP
     - description: 06_inspect_polygon_layer_attributes_(again).md
       name: Inspect polygon layer attributes (again)

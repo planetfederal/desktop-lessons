@@ -1,5 +1,5 @@
 * In the **Layers Panel**, right-click the *Blocks 2010* layer and
-  select **Open Attribute Table**
+  select **Properties**
 
     ![open_layer_properties](open_layer_properties.png)
 

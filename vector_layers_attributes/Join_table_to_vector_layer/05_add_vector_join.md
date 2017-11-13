@@ -1,7 +1,5 @@
 * In the **Layers Properties - Blocks 2010**, click the **Join** tab.
 
-    ![open_joins_tab](open_joins_tab.png)
-
 * There are no joins yet for this layer. Click the **Add Join** button
   to create one.
 
