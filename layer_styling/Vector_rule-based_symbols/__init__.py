@@ -10,7 +10,8 @@ from lessons import addLessonModule
 
 
 # Lesson description
-lesson = Lesson("Vector rule-based symbols", "Layer styling", "00_lesson.html")
+lesson = Lesson("04. Vector rule-based symbols", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Introduction", "01_intro.html", steptype=Step.MANUALSTEP)
@@ -45,4 +46,4 @@ lesson.addStep("Set update rule", "10_set_update_rule.html", steptype=Step.MANUA
 lesson.addStep("Confirm the results", "11_set_update_rule_results.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Create Proportional Symbols")
+lesson.addNextLesson("Layer styling", "05. Create Proportional Symbols")

@@ -5,7 +5,7 @@ from lessons import addLessonModule
 
 # Lesson's description
 
-lesson = Lesson ("Vector Single Symbol", "Layer styling", "00_lesson.html")
+lesson = Lesson ("01. Vector Single Symbol", "Layer styling", "00_lesson.html")
 
 
 # Steps
@@ -27,4 +27,4 @@ lesson.addStep("Confirm final result", "06_final_results.md", steptype=Step.MANU
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Vector categorized symbols")
+lesson.addNextLesson("Layer styling", "02. Vector categorized symbols")

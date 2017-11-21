@@ -8,7 +8,8 @@ from qgis.utils import iface
 from lessons import addLessonModule
 
 # Lesson description
-lesson = Lesson("Manage multiple styles in a layer", "Layer styling", "00_lesson.html")
+lesson = Lesson("09. Manage multiple styles in a layer", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Introduction", "01_intro.html", steptype=Step.MANUALSTEP)
@@ -24,4 +25,4 @@ lesson.addStep("Change new style settings", "05_create_occupied_ratio_style.html
 lesson.addStep("Go back to previous style", "06_revert_to_population_density.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Vector categorized symbols")
+lesson.addNextLesson("Layer styling", "10. Using data-defined properties")

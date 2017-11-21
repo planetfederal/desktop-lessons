@@ -10,7 +10,8 @@ from lessons import addLessonModule
 
 
 # Lesson description
-lesson = Lesson("Raster multiband styling", "Layer styling", "00_lesson.html")
+lesson = Lesson("07. Raster multiband styling", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Set 'landsat_8_sample' layer as active layer", "01_activelayer.html",
@@ -31,4 +32,4 @@ lesson.addStep("Set better legend values", "05_set_543_infrared_color.html", ste
 lesson.addStep("Confirm results", "06_set_543_infrared_color_results.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Raster singleband styling")
+lesson.addNextLesson("Layer styling", "08. Setting layer's default style")

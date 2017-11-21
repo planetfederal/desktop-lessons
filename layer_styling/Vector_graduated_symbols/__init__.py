@@ -10,7 +10,8 @@ from lessons import addLessonModule
 
 
 # Lesson description
-lesson = Lesson("Vector graduated symbols", "Layer styling", "00_lesson.html")
+lesson = Lesson("03. Vector graduated symbols", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Set 'Wake BlockGroup 2010' layer as active layer", "01_activelayer.html",
@@ -49,4 +50,4 @@ lesson.addStep("Convert population to thousands", "11_to_thousands.html", stepty
 lesson.addStep("Confirm results", "12_to_thousands_results.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Vector rule-based symbols")
+lesson.addNextLesson("Layer styling", "04. Vector rule-based symbols")

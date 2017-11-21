@@ -10,7 +10,8 @@ from lessons import addLessonModule
 
 
 # Lesson description
-lesson = Lesson("Create Proportional Symbols", "Layer styling", "00_lesson.html")
+lesson = Lesson("05. Create Proportional Symbols", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Set 'Wake_Public_Schools' layer as active layer", "01_activelayer.html",
@@ -31,4 +32,4 @@ lesson.addStep("Change size expression", "05_view_expression.html", steptype=Ste
 lesson.addStep("Confirm final results", "06_view_expression_results.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Raster singleband styling")
+lesson.addNextLesson("Layer styling", "06. Raster singleband styling")

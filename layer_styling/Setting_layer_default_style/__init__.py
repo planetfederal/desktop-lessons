@@ -13,7 +13,8 @@ def copyTable():
 
 
 # Lesson's description
-lesson = Lesson ("Setting layer's default style", "Layer styling", "00_lesson.html")
+lesson = Lesson ("08. Setting layer's default style", "Layer styling",
+                 "00_lesson.html")
 
 # Steps
 lesson.addStep("Copy data", "Copy data", copyTable)
@@ -35,4 +36,4 @@ lesson.addStep('Load example dataset', '02_select_dataset_file.html', steptype=S
 lesson.addStep('Conclusion', '06_conclusion.html', steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Manage multiple styles in a layer")
+lesson.addNextLesson("Layer styling", "09. Manage multiple styles in a layer")

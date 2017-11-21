@@ -10,7 +10,8 @@ from lessons import addLessonModule
 
 
 # Lesson description
-lesson = Lesson("Raster singleband styling", "Layer styling", "00_lesson.html")
+lesson = Lesson("06. Raster singleband styling", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Set 'dem25' layer as active layer", "01_activelayer.html",
@@ -37,4 +38,4 @@ lesson.addStep("Set discrete color interpolation mode", "07_set_discrete_mode.ht
 lesson.addStep("Confirm results", "08_set_discrete_mode_results.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Raster multiband styling")
+lesson.addNextLesson("Layer styling", "07. Raster multiband styling")

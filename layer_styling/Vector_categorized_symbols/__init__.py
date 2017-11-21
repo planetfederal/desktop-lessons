@@ -10,7 +10,8 @@ from lessons import addLessonModule
 
 
 # Lesson description
-lesson = Lesson("Vector categorized symbols", "Layer styling", "00_lesson.html")
+lesson = Lesson("02. Vector categorized symbols", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Set 'Downtown streets' layer as active layer", "01_activelayer.html",
@@ -43,4 +44,4 @@ lesson.addStep("Pre-process values to use in categories", "09_reduce_classes.htm
 lesson.addStep("Confirm results", "10_reduce_classes_results.html", steptype=Step.MANUALSTEP)
 
 # Suggested lessons
-lesson.addNextLesson("Layer styling", "Vector graduated symbols")
+lesson.addNextLesson("Layer styling", "03. Vector graduated symbols")

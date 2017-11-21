@@ -10,7 +10,8 @@ from lessons import addLessonModule
 
 
 # Lesson description
-lesson = Lesson("Labelling vector layers", "Layer styling", "00_lesson.html")
+lesson = Lesson("11. Labelling vector layers", "Layer styling",
+                "00_lesson.html")
 
 # Steps
 lesson.addStep("Set 'Wake_ZIP_Codes' layer as active layer", "01_activelayer.html",
@@ -40,6 +41,3 @@ lesson.addMenuClickStep("Layer/Properties...", "07_open_properties.html")
 lesson.addStep("Activate merge lines option", "10_merge_lines.html", steptype=Step.MANUALSTEP)
 
 lesson.addStep("Confirm merge lines results", "11_merge_lines_result.html", steptype=Step.MANUALSTEP)
-
-# Suggested lessons
-lesson.addNextLesson("Layer styling", "Setting layer's default style")

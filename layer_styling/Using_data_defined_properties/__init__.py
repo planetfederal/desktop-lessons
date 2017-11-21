@@ -5,7 +5,8 @@ from lessons import addLessonModule
 
 # Lesson's description
 
-lesson = Lesson ("Using data-defined properties", "Layer styling", "00_lesson.html")
+lesson = Lesson ("10. Using data-defined properties", "Layer styling",
+                 "00_lesson.html")
 
 
 # Steps
@@ -35,4 +36,4 @@ lesson.addStep("Confirm final results", "09_intersect_expression_results.md", st
 
 # Suggested lessons
 
-lesson.addNextLesson("Layer styling", "Create Proportional Symbols")
+lesson.addNextLesson("Layer styling", "11. Labelling vector layers")
