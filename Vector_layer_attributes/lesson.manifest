@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<lesson>
+   <description>Lessons on working with vector layers attributes.</description>
+   <lessons_list>Editing vector layer attributes, Edit multiple features attributes, Filter layer by attributes, Get statistics from attributes, Join table to vector layer, Select features using an expression, Using field calculator, View attributes using the Attribute Table, View attributes using the Identify Feature tool</lessons_list>
+   <url>http://lessons.connect.boundlessgeo.com/layer_styling.zip</url>
+</lesson>
